@@ -1,0 +1,9 @@
+<details class="solucao-box">
+    <summary class="solucao-titulo">
+        {{ .Get "titulo" | default "Ver solução" }}
+    </summary>
+
+    <div class="solucao-conteudo">
+        {{ .Inner | markdownify }}
+    </div>
+</details>
