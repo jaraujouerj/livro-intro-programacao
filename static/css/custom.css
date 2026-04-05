@@ -1,0 +1,84 @@
+/* Base comum */
+.box-titulo {
+    font-weight: bold;
+    padding: 0.5em 0.8em;
+}
+
+.box-conteudo {
+    padding: 0.8em;
+}
+
+/* ===================== */
+/* EXERCÍCIO */
+/* ===================== */
+.exercicio-box {
+    margin: 1.5em 0;
+    border-left: 4px solid #4a6fa5;
+    background: #f7f9fc;
+    border-radius: 6px;
+}
+
+/* ===================== */
+/* SOLUÇÃO */
+/* ===================== */
+.solucao-box {
+    margin: 1.2em 0;
+    border-left: 4px solid #2e7d32;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.solucao-titulo {
+    background: #2e7d32;
+    color: #fff;
+    padding: 0.6em 1em;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+
+.solucao-titulo::-webkit-details-marker {
+    display: none;
+}
+
+.solucao-conteudo {
+    background: #263238;
+    color: #eceff1;
+    padding: 1em;
+}
+
+.solucao-conteudo pre {
+    background: #1e1e1e;
+    padding: 0.8em;
+    border-radius: 4px;
+}
+
+/* ===================== */
+/* DICA */
+/* ===================== */
+.dica-box {
+    margin: 1.2em 0;
+    border-left: 4px solid #f9a825;
+    background: #fff8e1;
+    border-radius: 6px;
+}
+
+/* ===================== */
+/* AVISO */
+/* ===================== */
+.aviso-box {
+    margin: 1.2em 0;
+    border-left: 4px solid #ef6c00;
+    background: #fff3e0;
+    border-radius: 6px;
+}
+
+/* ===================== */
+/* IMPORTANTE */
+/* ===================== */
+.importante-box {
+    margin: 1.2em 0;
+    border-left: 4px solid #6a1b9a;
+    background: #f3e5f5;
+    border-radius: 6px;
+}
