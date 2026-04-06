@@ -8,7 +8,8 @@ nivel: "iniciante"
 topicos: ["entrada/saída", "variáveis"]
 ---
 
-# 📘 Exercícios — Capítulo 1
+# 📘 Exercícios — Capítulo 1 
+# Introdução aos Computadores
 
 ---
 ## 1.1 Sistemas de Numeração
