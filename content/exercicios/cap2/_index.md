@@ -121,10 +121,10 @@ Imagine uma máquina que possua somente as operações aritméticas de soma e su
 uma multiplicação.
 
 {{< solucao nivel="iniciante" >}}
-### Exercício — Multiplicação usando apenas soma e subtração (corrigido)
+### Exercício — Multiplicação usando apenas soma e subtração.
 
 **Ideia:**  
-Transformar a multiplicação em soma repetida, tratando o sinal antes do processo principal.
+Transformar a multiplicação em soma repetida, tratando o sinal antes do processo principal. Note que não usei estruturas de repetição, que facilitariam muito a implementação. Isso será visto mais adinate no livro. Quando tiver visto essas estruturas, volte aqui e reimplemente.
 
 **Pseudocódigo:**
 ```text
@@ -162,12 +162,37 @@ Com a mesma máquina do exercício anterior, escreva um algoritmo para a exponen
 ### Exercício — Exponenciação usando apenas soma e subtração
 
 **Ideia:**  
-Calcular \(a^b\) como multiplicações sucessivas, e cada multiplicação é feita por soma repetida.
+Calcular \(a^b\) como multiplicações sucessivas, e cada multiplicação é feita por soma repetida. 
 
 **Pseudocódigo:**
 ```text
 Passo 1: leia a
 Passo 2: leia b
+
+Passo 3: se b = 0 então
+Passo 3.1: resultado <- 1
+Passo 3.2: vá para o passo XX
+
+Passo 4: se a = 0 então
+Passo 4.1 resultado <- 0
+Passo 4.2 vá para o passo XX
+
+Passo 5: resultado  <- a
+
+Passo 6: se b > 1 então
+Passo 6.1 soma_tem <- 0
+Passo 6.2 contador <- a 
+
+Passo 7: se contador > 0 então
+Passo 7.1 soma_tem <- soma_tem + resultado
+Passo 7.2 contador <- contador - 1 
+Passo 7.3 vá para o passo 7
+
+Passo 8: resultado <- soma_tem
+Passo 9: b <- b -1>
+Passo 9: vá para o passo 6
+
+Passo XX: imprima resultado
 
 Passo 3: resultado <- 1
 Passo 4: contador_exp <- 0
@@ -211,7 +236,9 @@ Realizar a divisão como subtrações sucessivas do divisor até que o valor res
 Passo 1: leia dividendo
 Passo 2: leia divisor
 
-Passo 3: se divisor = 0 então vá para o passo 18
+Passo 3: se divisor = 0 
+Passo 3.1 imprima "Divisão por zero!"
+Passo 3.2 vá para o passo 15
 
 Passo 4: quociente <- 0
 Passo 5: resto <- dividendo
@@ -226,21 +253,17 @@ Passo 8: se divisor < 0 então faça:
 Passo 8.1: divisor <- 0 - divisor
 Passo 8.2: sinal <- 0 - sinal
 
-Passo 9: se resto < divisor então vá para o passo 14
+Passo 9: se resto < divisor então vá para o passo 13
 
 Passo 10: resto <- resto - divisor
 Passo 11: quociente <- quociente + 1
 Passo 12: vá para o passo 9
 
-Passo 14: se sinal < 0 então faça:
-Passo 14.1: quociente <- 0 - quociente
+Passo 13: se sinal < 0 então faça:
+Passo 13.1: quociente <- 0 - quociente
 
-Passo 15: imprima quociente
-Passo 16: imprima resto
-Passo 17: termine a execução do algoritmo
-
-Passo 18: imprima "divisão por zero"
-Passo 19: termine a execução do algoritmo
+Passo 14: imprima quociente e resto
+Passo 15: termine a execução do algoritmo
 {{< /solucao >}}
 
 ---
