@@ -4,6 +4,6 @@
     </summary>
 
     <div class="solucao-conteudo">
-        {{ .Inner | markdownify }}
+        {{ .Inner | .Page.RenderString }}
     </div>
 </details>
