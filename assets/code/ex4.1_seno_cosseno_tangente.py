@@ -1,5 +1,5 @@
-# cria uma tabela com os valores de seno e cosseno e tangente de ângulos entre 0 e 360 graus, a cada 30 graus.
-# trate estes casos especiais, evitando incorrer em erro. Use math.inf e -math.inf para indicar valores infinitos, positivos e negativos.
+# Cria uma tabela com os valores de seno e cosseno e tangente 
+# de ângulos entre 0 e 360 graus, a cada 30 graus.
 import math
 
 print("Ângulo\tSeno\tCosseno\tTangente")
@@ -13,5 +13,5 @@ for angulo in range(0, 361, 30):
         # Definimos como inf ou -inf baseado no sinal do seno
         tangente = float('inf') if seno > 0 else float('-inf')
     else:
-        tangente = math.tan(angulo)
-    print(f"{angulo}\t{seno:.2f}\t{cosseno:.2f}\t{tangente:.2f}")
+        tangente = math.tan(math.radians(angulo))
+    print(f"{angulo:>3}\t{seno:>5.2f}\t{cosseno:>5.2f}\t{tangente:>5.2f}")
