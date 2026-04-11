@@ -53,6 +53,33 @@
     border-radius: 4px;
 }
 
+.solucao-conteudo table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    display: table;
+}
+
+.solucao-conteudo table tr th,
+.solucao-conteudo table tr td {
+    border: 1px solid #546e7a;
+    padding: 0.5em 0.8em;
+    color: #eceff1;
+}
+
+.solucao-conteudo table tr th {
+    background: #37474f;
+    font-weight: bold;
+}
+
+.solucao-conteudo table tr:nth-child(2n) {
+    background: #2c3e43;
+}
+
+.solucao-conteudo table tr:nth-child(2n+1) {
+    background: #263238;
+}
+
 /* ===================== */
 /* DICA */
 /* ===================== */
