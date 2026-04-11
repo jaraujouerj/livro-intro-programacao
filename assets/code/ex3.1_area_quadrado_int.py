@@ -1,5 +1,5 @@
 # lê o valor do lado
-lado = float(input("Digite o valor do lado do quadrado: "))
+lado = int(input("Digite o valor do lado do quadrado: "))
 # calcula a área
 area = lado * lado  
 
