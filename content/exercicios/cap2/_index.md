@@ -1,12 +1,15 @@
-+++
-title = 'Cap2'
-date = 2026-04-05T12:15:05-03:00
-draft = true
-+++
+---
+title: "Capítulo 2 — Bases da Programação"
+weight: 2
+bookCollapseSection: true
+---
 
 # 📘 Exercícios — Capítulo 2
 
 # Bases da Programação
+
+[← Voltar](../)
+
 ## 2.2 Algoritmos
 ### Exercício 2.1
 Escreva um algoritmo para fritar um ovo. Se não souber, escreva mesmo assim e depois pergunte a alguém que saiba. Houve
@@ -647,3 +650,9 @@ O refinamento substitui descrições vagas como “abrir no meio” por operaç�
 {{< /solucao >}}
 
 ---
+
+## Quer ir além?
+
+Se você quiser se desafiar com novos problemas, sem solução disponível:
+
+👉 [Exercícios extras do Capítulo 2](../../extras/cap2/)

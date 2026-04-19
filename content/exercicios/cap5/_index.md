@@ -1,10 +1,12 @@
-+++
-title = 'Cap5'
-date = 2026-04-10T17:59:43-03:00
-draft = true
-+++
+---
+title: "Capítulo 5 — Organizando a Informação"
+weight: 5
+bookCollapseSection: true
+---
 # 📘 Exercícios — Capítulo 5
 # Organizando a Informação
+
+[← Voltar](../)
 
 ## 5.3 Processando uma Lista
 ### Exercício 5.1
@@ -425,3 +427,9 @@ e usando o nome da cidade como primeiro elemento da tupla.
 {{< /solucao >}}
 
 ---
+
+## Quer ir além?
+
+Se você quiser se desafiar com novos problemas, sem solução disponível:
+
+👉 [Exercícios extras do Capítulo 5](../../extras/cap5/)

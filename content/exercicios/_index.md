@@ -2,8 +2,16 @@
 title: "Exercícios"
 bookCollapseSection: true
 ---
+# 👨‍🎓 Para estudantes
 
-# Exercícios por capítulo
+[← Voltar](../)
+
+---
+
+Aqui você encontra os enunciado dos exercícios de cada capítulo do livro. Você pode ver a solução ao clicar no botão logo após cada exercício.
+Recomendo que só olhe a solução para conferir se suas resposta está correta. Programar exige prática.
+
+## Exercícios por capítulo
 
 - [Capítulo 1 - Introdução aos Computadores](cap1/)
 - [Capítulo 2 - Bases da Programação](cap2/)

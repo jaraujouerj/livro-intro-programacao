@@ -6,6 +6,8 @@ draft = true
 
 # Errata
 
+[← Voltar](../)
+
 Esta página lista correções do livro organizadas por versão.  
 Se encontrar um erro, reporte via GitHub ou entre em contato.
 

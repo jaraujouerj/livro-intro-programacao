@@ -1,10 +1,12 @@
-+++
-title = 'Cap8'
-date = 2026-04-11T10:00:00-03:00
-draft = true
-+++
+---
+title: "Capítulo 8 — Ordenação"
+weight: 8
+bookCollapseSection: true
+---
 # 📘 Exercícios — Capítulo 8
 # Ordenação
+
+[← Voltar](../)
 
 ---
 ## 8.1 Ordenando uma Lista
@@ -136,3 +138,13 @@ lista que guarda a intercalação das duas.
 {{< /solucao >}}
 
 ---
+
+## Quer ir além?
+
+Se você quiser se desafiar com novos problemas, sem solução disponível:
+
+👉 [Exercícios extras do Capítulo 8](../../extras/cap8/)
+
+e também:
+
+👉 [Exercícios extras do Capítulo 9](../../extras/cap9/)

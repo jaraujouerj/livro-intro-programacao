@@ -9,7 +9,10 @@ topicos: ["entrada/saída", "variáveis"]
 ---
 
 # 📘 Exercícios — Capítulo 1 
+
 # Introdução aos Computadores
+
+[← Voltar](../)
 
 ---
 ## 1.1 Sistemas de Numeração
@@ -1218,3 +1221,10 @@ Por isso, IEEE 754 armazena uma aproximação, o que pode causar pequenos erros 
 {{< /solucao >}}
 
 ---
+
+
+## Quer ir além?
+
+Se você quiser se desafiar com novos problemas, sem solução disponível:
+
+👉 [Exercícios extras do Capítulo 1](../../extras/cap1/)

@@ -1,13 +1,15 @@
-+++
-title = 'Cap6'
-date = 2026-04-11T10:00:00-03:00
-draft = true
-+++
+---
+title: "Capítulo 6 — Strings e Arquivos"
+weight: 6
+bookCollapseSection: true
+---
 # 📘 Exercícios — Capítulo 6
 # Strings e Arquivos
 
+[← Voltar](../)
+
 ---
-## 6.2 Strings
+## 6.1 Strings
 ### Exercício 6.1 — Romani ite domum
 Escreva uma função que escreva na tela 100 vezes a frase 'Romani ite domum'.
 
@@ -29,6 +31,7 @@ de uma string.
 {{< /solucao >}}
 
 ---
+## 6.2 Fatianto Strings
 ### Exercício 6.4 — String invertida
 Escreva uma função que receba uma string como parâmetro e escreva-a invertida,
 usando apenas o fatiamento. Ex.: 'celacanto provoca maremoto' imprime
@@ -65,6 +68,7 @@ palíndromo. Como se pode consertar isso? Pesquise a função de Python
 {{< /solucao >}}
 
 ---
+## 6.3 Operações sobre Strings
 ### Exercício 6.7 — Palíndromo em frases
 Escreva uma função que receba uma string como parâmetro e diga se se trata de
 um palíndromo ou não. Na string devem ser ignorados os espaços em branco e as
@@ -115,7 +119,7 @@ compostos de apenas duas partes.
 {{< /solucao >}}
 
 ---
-## 6.3 Arquivos
+## 6.4 Arquivos
 ### Exercício 6.10 — Arquivo em maiúsculas
 Escreva um programa que converta todas as letras de um arquivo em maiúsculas e
 escreva o resultado na tela.
@@ -149,6 +153,7 @@ em maiúscula e escreva o resultado na tela.
 {{< /solucao >}}
 
 ---
+## 6.5 Escrevendo em Arquivos
 ### Exercício 6.13 — Tabela Celsius-Fahrenheit em arquivo
 Escreva um programa que salve uma tabela em um arquivo com a conversão de temperaturas
 Celsius para Fahrenheit de 0 a 300.
@@ -184,3 +189,9 @@ para pi.
 {{< /solucao >}}
 
 ---
+
+## Quer ir além?
+
+Se você quiser se desafiar com novos problemas, sem solução disponível:
+
+👉 [Exercícios extras do Capítulo 6](../../extras/cap6/)

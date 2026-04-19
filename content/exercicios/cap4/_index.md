@@ -1,10 +1,13 @@
-+++
-title = 'Cap4'
-date = 2026-04-09T18:24:05-03:00
-draft = true
-+++
+---
+title: "Capítulo 4 — Subalgoritmos"
+weight: 4
+bookCollapseSection: true
+---
 # 📘 Exercícios — Capítulo 4
 # Subalgoritmos
+
+[← Voltar](../)
+
 ---
 ## 4.2 Módulos em Python
 ### Exercício 4.1 - Tabela com tangente
@@ -258,3 +261,9 @@ ValueError da entrada de dados pelo usuário.
 {{< /solucao >}}
 
 ---
+
+## Quer ir além?
+
+Se você quiser se desafiar com novos problemas, sem solução disponível:
+
+👉 [Exercícios extras do Capítulo 4](../../extras/cap4/)

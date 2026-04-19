@@ -1,10 +1,12 @@
-+++
-title = 'Cap7'
-date = 2026-04-11T10:00:00-03:00
-draft = true
-+++
+---
+title: "Capítulo 7 — Recursão"
+weight: 7
+bookCollapseSection: true
+---
 # 📘 Exercícios — Capítulo 7
 # Recursão
+
+[← Voltar](../)
 
 ---
 ## 7.2 Cálculo Recursivo para Tamanho de Lista
@@ -90,3 +92,9 @@ Escreva uma função recursiva que some os n primeiros números.
 {{< /solucao >}}
 
 ---
+
+## Quer ir além?
+
+Se você quiser se desafiar com novos problemas, sem solução disponível:
+
+👉 [Exercícios extras do Capítulo 7](../../extras/cap7/)
