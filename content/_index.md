@@ -11,12 +11,14 @@ Material complementar ao livro, com foco em prática, exercícios e apoio ao ens
 
 Este site não substitui o livro. Ele amplia a experiência com exercícios, desafios e material para sala de aula.
 
+⚠️ **Atualizações disponíveis:** veja a [errata](./errata/).
+
 ---
 
 ## 👨‍🎓 Para estudantes
 
 * [Exercícios do livro (com solução comentada)](./exercicios/)
-* [Exercícios extras (sem solução)](./desafios/)
+* [Exercícios adicionais (para praticar mais)](./extras/)
 
 > Recomenda-se tentar resolver os exercícios antes de visualizar as soluções.
 
@@ -43,10 +45,10 @@ Este site não substitui o livro. Ele amplia a experiência com exercícios, des
 
 ---
 
-## 🧭 Como usar este site
+## 🧭 Como usar este site -->
 
-* Estudantes: resolva os exercícios do livro e use as soluções apenas para conferência.
-* Professores: utilize os slides e listas como base para suas aulas e avaliações.
+* Estudante: resolva os exercícios do livro e use as soluções apenas para conferência.
+* Professor: utilize os slides e listas como base para suas aulas e avaliações.
 
 ---
 
