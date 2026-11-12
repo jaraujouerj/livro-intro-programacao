@@ -15,6 +15,17 @@ Se encontrar um erro, reporte via GitHub ou entre em contato.
 
 ## Versão 1.2 (2026-04-09)
 
+### Capítulo 2 — Bases da Programação
+Na dica 2.1, temos:
+
+Ao executá-lo no ambiente de Python 2, vamos obter a seguinte mensagem de erro:
+
+$ python3 ola.py
+
+O correto é usar python2
+
+$ python2 ola.py
+
 ### Capítulo 3 — Programação Estruturada
 
 #### Exercício 3.10
