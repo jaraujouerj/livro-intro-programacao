@@ -26,7 +26,7 @@ Este site não substitui o livro. Ele amplia a experiência com exercícios, des
 
 ## 👨‍🏫 Para professores
 
-* [Slides por capítulo](./professores/slides/)
+* [Slides por capítulo](./slides/)
 * [Listas de exercícios para avaliação](./professores/)
 
 ---
