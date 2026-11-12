@@ -68,3 +68,47 @@ topicos: ["entrada/saída", "variáveis"]
 **20. Menu Principal (`main`):** Escreva um programa que contenha três funções matemáticas diferentes e uma função `main()`. A `main()` deve apresentar um menu ao usuário para escolher qual função executar, tratando entradas inválidas.
 
 ---
+
+### Monte Carlo
+
+Com base na lógica do **Método de Monte Carlo** apresentada na Seção 4.4 do livro, que utiliza a probabilidade e a geração de coordenadas aleatórias para estimar valores matemáticos, resolva os 5 exercícios semelhantes.
+
+Para todos os exercícios, utilize a estrutura modular sugerida no material: crie funções específicas para **gerar dados aleatórios**, para **testar a condição** e para **realizar o cálculo final**.
+
+**1. Estimativa da Área sob a Curva \\(y = x^2\\)**
+
+Escreva um programa que estime a área sob a parábola \\(y = x^2\\) no intervalo de \\(x = 0\\) a \\(x = 1\\).
+*   **Lógica:** Gere coordenadas \\((x, y)\\) aleatórias onde \\(0 \le x \le 1\\) e \\(0 \le y \le 1\\).
+*   **Condição:** O ponto está "dentro" da área se \\(y \le x^2\\).
+*   **Cálculo:** A área estimada será a razão entre pontos dentro e o total de pontos (já que a área do quadrado total é \\(1 \times 1 = 1\\)).
+
+**2. Volume de uma Esfera (Monte Carlo 3D)**
+
+Expanda o conceito de Pi para a terceira dimensão e estime o volume de uma esfera de raio 1 dentro de um cubo de lado 2.
+*   **Lógica:** Gere três coordenadas aleatórias \\((x, y, z)\\) no intervalo de 0 a 1 (representando um oitavo do cubo).
+*   **Condição:** O ponto está dentro da esfera se \\(\sqrt{x^2 + y^2 + z^2} \le 1\\). Use a função `math.sqrt()` ou manipule as potências.
+*   **Cálculo:** O volume da esfera é dado por \\(V = \frac{4}{3}\pi r^3\\). A proporção de pontos dentro multiplicada por 8 fornecerá o volume total estimado.
+
+**3. Área de um Triângulo no Plano Cartesiano**
+
+Crie um programa que use Monte Carlo para estimar a área de um triângulo com vértices em \\((0,0)\\), \\((1,0)\\) e \\((0,1)\\) dentro de um quadrado unitário.
+*   **Lógica:** Gere pontos \\((x, y)\\) aleatórios entre 0 e 1.
+*   **Condição:** O ponto está dentro do triângulo se \\(y \le 1 - x\\).
+*   **Cálculo:** Compare o resultado da simulação com o cálculo geométrico clássico (\\(\frac{base \times altura}{2}\\)).
+
+**4. Área de uma Elipse**
+
+Estime a área de uma elipse definida pela equação \\(\frac{x^2}{a^2} + \frac{y^2}{b^2} \le 1\\), com \\(a=2\\) e \\(b=1\\).
+*   **Lógica:** Gere pontos aleatórios dentro de um retângulo que envolva a elipse (neste caso, \\(x\\) entre \\(-2\\) e \\(2\\), e \\(y\\) entre \\(-1\\) e \\(1\\)).
+*   **Condição:** Teste se a soma das frações da equação é menor ou igual a 1.
+*   **Cálculo:** A área estimada será a (proporção de acertos) \\(\times\\) (área total do retângulo).
+
+**5. Integração da Função Seno**
+
+Calcule a área sob a curva da função \\(\sin(x)\\) no intervalo de \\(0\\) a \\(\pi\\) radianos.
+*   **Lógica:** Gere coordenadas \\(x\\) entre \\(0\\) e `math.pi` e coordenadas $y$ entre \\(0\\) e \\(1\\)  (o valor máximo do seno).
+*   **Condição:** O ponto está abaixo da curva se \\(y \le \sin(x)\\).
+*   **Cálculo:** A área estimada é a proporção de pontos sob a curva multiplicada pela área do retângulo base (\\(\pi \times 1\\)).
+
+
+---
