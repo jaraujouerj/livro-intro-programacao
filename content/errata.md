@@ -1,7 +1,7 @@
 +++
 title = 'Errata'
 date = 2026-04-09T09:36:51-03:00
-draft = true
+draft = false
 +++
 
 # Errata
@@ -59,3 +59,11 @@ Considere que os valores informados são positivos.
   
 Escreva um programa que imprima uma tabela das raízes quadradas dos números
 entre 10 e 100, com incrementos de 10.
+
+### Capítulo 5 - Organizando a Informação
+#### Programa 5.31 
+Erro no for:
+**for i in range(n):**
+
+o correto é: 
+**for i in range(lin):**
