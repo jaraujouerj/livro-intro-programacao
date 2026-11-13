@@ -1,12 +1,12 @@
 baseURL = 'https://araujo.eng.uerj.br/livro/'
 title = 'Introdução à Programação e aos Algoritmos'
 theme = 'hextra'
-defaultContentLanguage = 'pt'
+defaultContentLanguage = 'pt-br'
 enableRobotsTXT = true
 enableGitInfo = true
 
 [languages]
-  [languages.pt]
+  [languages.pt-br]
     locale = 'pt-BR'
     languageName = 'Português'
     weight = 1
@@ -77,6 +77,7 @@ enableGitInfo = true
 
   [params.footer]
     displayPoweredBy = false
+    displayCopyright = true
 
   [params.theme]
     default = 'system'
