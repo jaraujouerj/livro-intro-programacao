@@ -1,0 +1,15 @@
+<div
+    style="margin: 1.5rem 0; padding: 1rem; border-left: 4px solid #007bff; background-color: rgba(0, 123, 255, 0.08); border-radius: 4px;">
+    <strong>Contato direto:</strong>
+    <span id="email-protegido" style="font-weight: bold;"></span>
+</div>
+
+<script>
+    (function () {
+        var user = "{{ .Get "user" }}";
+        var domain = "{{ .Get "domain" }}";
+        var email = user + "@" + domain;
+        var el = document.getElementById("email-protegido");
+        el.innerHTML = '<a href="mailto:' + email + '" style="text-decoration: underline;">' + email + '</a>';
+    })();
+</script>
