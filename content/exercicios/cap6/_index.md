@@ -13,7 +13,7 @@ bookCollapseSection: true
 ### Exercício 6.1 — Romani ite domum
 Escreva uma função que escreva na tela 100 vezes a frase 'Romani ite domum'.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Romani ite domum
 {{< codefile "assets/code/ex6.1_romani.py" >}}
 
@@ -25,7 +25,7 @@ Volte aos capítulos sobre listas e teste quais comandos de listas funcionam em
 strings. Substitua nos programas do capítulo as listas por strings, quando couber, e
 veja se ocorrem erros de execução.
 
-{{< solucao nivel="intermediario" >}}
+{{< solucao >}}
 ### Exercício — Listas e strings
 
 Uma string é uma **sequência**, como uma lista, mas é **imutável**: seus caracteres não podem ser alterados depois de criada. Quase tudo o que *lê* uma lista funciona em strings. Quase tudo o que *modifica* uma lista dá erro. O programa abaixo testa os comandos e os programas do capítulo 5, e mostra o resultado ou o erro de cada um:
@@ -118,7 +118,7 @@ Os programas 5.12, 5.13 e 5.16 só usam `range`, e os dicionários, tuplas e o N
 Escreva um programa em Python que conte a quantidade de espaços em branco
 de uma string.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Contando espaços
 {{< codefile "assets/code/ex6.3_conta_espacos.py" >}}
 
@@ -131,7 +131,7 @@ Escreva uma função que receba uma string como parâmetro e escreva-a invertida
 usando apenas o fatiamento. Ex.: 'celacanto provoca maremoto' imprime
 'otomeram acovorp otnacalec'. Dica: o passo pode ser negativo.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — String invertida
 {{< codefile "assets/code/ex6.4_string_invertida.py" >}}
 
@@ -142,7 +142,7 @@ usando apenas o fatiamento. Ex.: 'celacanto provoca maremoto' imprime
 Tente outras formas de testar se uma palavra é um palíndromo. Tente outro
 fatiamento.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Palíndromo com fatiamento
 {{< codefile "assets/code/ex6.5_palindromo_fatiamento.py" >}}
 
@@ -155,7 +155,7 @@ maiúsculas de minúsculas. Desse modo, 'Ovo' não seria identificado como
 palíndromo. Como se pode consertar isso? Pesquise a função de Python
 `lower()` que transforma maiúsculas em minúsculas.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Palíndromo com lower()
 {{< codefile "assets/code/ex6.6_palindromo_lower.py" >}}
 
@@ -169,7 +169,7 @@ um palíndromo ou não. Na string devem ser ignorados os espaços em branco e as
 letras maiúsculas e minúsculas não são diferenciadas. Por exemplo, a frase 'Seco
 de raiva coloco no colo caviar e doces' deve ser considerada um palíndromo.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Palíndromo em frases
 {{< codefile "assets/code/ex6.7_palindromo_frase.py" >}}
 
@@ -195,7 +195,7 @@ nome = ' '.join(lista)
 print(nome)
 ```
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Nome composto
 {{< codefile "assets/code/ex6.8_nome_composto.py" >}}
 
@@ -206,7 +206,7 @@ print(nome)
 Prepare seu programa do exercício anterior para aceitar também nomes
 compostos de apenas duas partes.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Nome com duas partes
 {{< codefile "assets/code/ex6.9_nome_duas_partes.py" >}}
 
@@ -218,7 +218,7 @@ compostos de apenas duas partes.
 Escreva um programa que converta todas as letras de um arquivo em maiúsculas e
 escreva o resultado na tela.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Arquivo em maiúsculas
 {{< codefile "assets/code/ex6.10_arquivo_maiusculas.py" >}}
 
@@ -229,7 +229,7 @@ escreva o resultado na tela.
 Escreva um programa que converta todas as letras de um arquivo em minúsculas e
 escreva o resultado na tela.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Arquivo em minúsculas
 {{< codefile "assets/code/ex6.11_arquivo_minusculas.py" >}}
 
@@ -240,7 +240,7 @@ escreva o resultado na tela.
 Escreva um programa que converta a primeira letra de cada palavra de um arquivo
 em maiúscula e escreva o resultado na tela.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Primeira letra maiúscula
 {{< codefile "assets/code/ex6.12_arquivo_titulo.py" >}}
 
@@ -252,7 +252,7 @@ em maiúscula e escreva o resultado na tela.
 Escreva um programa que salve uma tabela em um arquivo com a conversão de temperaturas
 Celsius para Fahrenheit de 0 a 300.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Tabela Celsius-Fahrenheit
 {{< codefile "assets/code/ex6.13_tabela_celsius_fahrenheit.py" >}}
 
@@ -264,7 +264,7 @@ Escreva um programa que copie o conteúdo de um arquivo para um novo arquivo.
 Seu programa deve testar se o arquivo de destino já existe e, se afirmativo, deve
 perguntar ao usuário se ele quer sobrescrevê-lo.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Cópia de arquivo
 {{< codefile "assets/code/ex6.14_copia_arquivo.py" >}}
 
@@ -276,7 +276,7 @@ Escreva um programa que guarde os pontos gerados pelo Programa 4.16 em um
 arquivo, um ponto por linha. Ao final, escreva nesse arquivo o resultado do cálculo
 para pi.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Pontos de pi em arquivo
 {{< codefile "assets/code/ex6.15_pi_arquivo.py" >}}
 

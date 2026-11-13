@@ -23,7 +23,7 @@ Se a espécie humana tivesse evoluído para ter 8 dedos, como estaríamos
      <li>1234</li>
    </ol>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 A ideia central é que, com 8 dedos, provavelmente teríamos desenvolvido um sistema de numeração de **base 8 (octal)**, em vez do sistema decimal (base 10).
 
 No sistema octal, os algarismos vão de 0 a 7. Assim, cada posição representa potências de 8:
@@ -84,7 +84,7 @@ números na nova base.
     <li>1234</li>
 </ol>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Se a espécie humana tivesse evoluído com 12 dedos, provavelmente usaríamos um sistema de numeração de **base 12 (duodecimal)**.
 
 Nesse sistema, usamos os algarismos de 0 a 9 e mais dois símbolos extras:
@@ -143,7 +143,7 @@ Para facilitar a visualização dos números binários vamos agrupá-los a cada 
 Quantos números diferentes são possíveis com 10 bits? Quais são o menor e o
 maior valor?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Um número com 10 bits é uma sequência de 10 dígitos binários, onde cada dígito pode ser 0 ou 1.
 
 ### Quantidade de números possíveis {#ex1-3-quantidade-de-numeros-possiveis}
@@ -188,7 +188,7 @@ bits possível.
     <li>545</li>
 </ol>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Para cada número, fazemos a conversão para binário e usamos o **menor número de bits possível** (ou seja, sem zeros à esquerda).
 
 ---
@@ -281,7 +281,7 @@ Converta os seguintes números binários em decimal.
     <li>1 0001</li>
 </ol>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Para converter um número binário em decimal, somamos as potências de 2 correspondentes às posições onde há dígito 1.
 
 ---
@@ -329,7 +329,7 @@ ligado e desligado; aceso e não aceso é diferente de aceso e apagado. Na reali
 se quisermos usar desligado, o par binário seria não desligado; no caso de
 apagado, seria não apagado. Pense a respeito.
 
-{{< solucao nivel="avançado" >}}
+{{< solucao >}}
 A ideia central é que o sistema binário não representa, originalmente, dois estados opostos no sentido conceitual (como “ligado” versus “desligado”), mas sim a **presença ou ausência de uma grandeza física**.
 
 Em circuitos digitais, por exemplo, não existe uma “essência do desligado”. O que há é:
@@ -360,7 +360,7 @@ Converta os seguintes números binários em octais e hexadecimais.
     <li>1010111011110011</li>
 </ol>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Para converter de binário para octal e hexadecimal, agrupamos os bits:
 
 - **Octal (base 8):** grupos de 3 bits (da direita para a esquerda)
@@ -442,7 +442,7 @@ Converta os seguintes números octais em binários.
     <li>1237</li>
 </ol>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Para converter de octal para binário, substituímos **cada dígito octal por um grupo de 3 bits** (pois 8 = 2<sup>3</sup>):
 
 0 → 000  
@@ -511,7 +511,7 @@ Converta os seguintes números hexadecimais em binários.
     <li>AAB0</li>
 </ol>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Para converter de hexadecimal para binário, substituímos **cada dígito hexadecimal por um grupo de 4 bits** (pois 16 = 2<sup>4</sup>):
 
 0 → 0000  
@@ -580,7 +580,7 @@ B → 1011
 Seu provedor de Internet vende as velocidades de 15, 30, 50 e 100 Mbits/s. Calcule
 as velocidades em MiBits/s.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 A diferença está no prefixo:
 
 - **Mbit (megabit)** = 10<sup>6</sup> bits  
@@ -629,7 +629,7 @@ arquivos. Analisando os arquivos, você percebe que precisa de 1 TiB de armazena
 comprar, se o fabricante usa unidades do sistema métrico decimal para
 comercializar seus produtos?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 O ponto central é a diferença entre os prefixos binários e decimais:
 
 - 1 TiB (tebibyte) = 2<sup>40</sup> bytes = 1.099.511.627.776 bytes  
@@ -659,7 +659,7 @@ Na prática, como os discos são vendidos em tamanhos padronizados, o mínimo re
 Escreva o binário equivalente a –215 em sinal/valor, complemento a 1 e
 complemento a 2, usando 16 bits para a codificação.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Primeiro, representamos o valor absoluto em binário com 16 bits.
 
 215 (decimal):
@@ -730,7 +730,7 @@ Somamos 1 ao complemento a 1:
 Escreva o binário equivalente a +215 em sinal/valor, complemento a 1 e
 complemento a 2, usando 16 bits para a codificação.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Primeiro, representamos o número 215 em binário com 16 bits.
 
 215 (decimal):
@@ -794,7 +794,7 @@ Ou seja, números positivos têm a mesma representação nas três codificaçõe
 Escreva o binário equivalente a -215 em excesso–511. Qual o menor n possível
 para escrever este número? Quantos bits são necessários neste caso?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Na representação em **excesso–N**, somamos uma constante (viés) ao valor antes de convertê-lo para binário.
 
 Aqui, N = 511.
@@ -874,7 +874,7 @@ inteiros, essa soma vai causar o chamado transbordamento (overflow). Como
 interpretar esse resultado de acordo com as representações de números binários
 negativos?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 
 Primeiro, representamos os números com 8 bits.
 
@@ -968,7 +968,7 @@ O intervalo com 8 bits é de −128 a +127, e 128 não pode ser representado.
 Escreva os binários equivalentes a –215,5 na notação com vírgula fixa. Qual o
 número mínimo de bits necessários?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Queremos representar −215,5 em **notação de vírgula fixa**. Primeiro, convertemos o valor absoluto.
 
 ---
@@ -1037,7 +1037,7 @@ A notação de vírgula fixa exige definir previamente quantos bits são usados 
 Escreva os binários equivalentes a –215,5 usando o padrão IEEE 754 para precisão
 simples e dupla.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Queremos representar −215,5 no padrão IEEE 754.
 
 ---
@@ -1128,7 +1128,7 @@ Como 0,5 tem representação binária exata, o número −215,5 é representado 
 Escreva os binários equivalentes a 0,1 usando o padrão IEEE 754 para precisão
 simples e dupla.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Queremos representar 0,1 (decimal) no padrão IEEE 754.
 
 ---

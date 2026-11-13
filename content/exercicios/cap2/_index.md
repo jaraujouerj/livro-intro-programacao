@@ -15,7 +15,7 @@ bookCollapseSection: true
 Escreva um algoritmo para fritar um ovo. Se não souber, escreva mesmo assim e depois pergunte a alguém que saiba. Houve
 muita diferença? Você esqueceu algum detalhe?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 **Ideia:**  
 Descrever passo a passo o processo de fritar um ovo, evidenciando a necessidade de precisão em algoritmos do mundo real.
 
@@ -45,7 +45,7 @@ FIM
 Imagine que você vai ensinar a uma criança de 6 anos, já alfabetizada, a procurar uma palavra no dicionário. Escreva um passo a
 passo de suas instruções.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Procurar uma palavra no dicionário
 
 **Ideia:**  
@@ -98,7 +98,7 @@ tem poucas habilidades.
 Como seria o algoritmo desta seção se levarmos em conta que um dicionário é organizado alfabeticamente? Escreva uma nova
 versão considerando esta característica.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Busca em dicionário considerando ordem alfabética (versão sequencial numerada)
 
 **Ideia:**  
@@ -123,7 +123,7 @@ Passo 10: termine a execução do algoritmo
 Imagine uma máquina que possua somente as operações aritméticas de soma e subtração. Escreva um algoritmo para fazer
 uma multiplicação.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Multiplicação usando apenas soma e subtração.
 
 **Ideia:**  
@@ -161,7 +161,7 @@ Passo 13: termine a execução do algoritmo
 ### Exercício 2.5
 Com a mesma máquina do exercício anterior, escreva um algoritmo para a exponenciação.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Exponenciação usando apenas soma e subtração
 
 **Ideia:**  
@@ -228,7 +228,7 @@ Melhore esta versão para trabalhar também com números negativos.
 ### Exercício 2.6
 Ainda com a mesma máquina, escreva um algoritmo para a divisão.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Divisão usando apenas soma e subtração
 
 **Ideia:**  
@@ -275,23 +275,23 @@ Passo 15: termine a execução do algoritmo
 Desenhe fluxogramas para os algoritmos que você desenvolveu na Seção 2.3.
 
 #### Fluxograma para algoritmo de busca em dicionário
-{{< solucao nivel="complexo" >}}
+{{< solucao >}}
 
 ![Exercício 2.3](exerc2.3.png)
 {{< /solucao >}}
 
 #### Fluxograma para algoritmo de multiplicação
-{{< solucao nivel="complexo" >}}
+{{< solucao >}}
 ![Exercício 2.4](exerc2.4.png)
 {{< /solucao >}}
 
 #### Fluxograma para algoritmo de exponenciação
-{{< solucao nivel="complexo" >}}
+{{< solucao >}}
 ![Exercício 2.5](exerc2.5.png)
 {{< /solucao >}}
 
 #### Fluxograma para algoritmo de divisão
-{{< solucao nivel="complexo" >}}
+{{< solucao >}}
 ![Exercício 2.6](exerc2.6.png)
 
 {{< /solucao >}}
@@ -306,7 +306,7 @@ Reescreva de forma correta os seguintes identificadores:
 4. var?
 5. Número
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 1. duas_palavras
 2. var_123
 3. campo_minado
@@ -319,7 +319,7 @@ Reescreva de forma correta os seguintes identificadores:
 ### Exercício 2.9
 Faça um programa em Python que calcule a área de um quadrado.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Área de um quadrado em Python
 
 **Ideia:**  
@@ -342,7 +342,7 @@ print("Área do quadrado:", area)
 Faça um programa em Python que calcule o número de segundos após a meia-noite. Crie identificadores para hora, minuto e
 segundo.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Segundos após a meia-noite em Python
 
 **Ideia:**  
@@ -370,7 +370,7 @@ print("Segundos após a meia-noite:", total_segundos)
 O Universo surgiu há cerca de 14 bilhões de anos. Escreva um programa Python que calcule quantos segundos se passaram
 desde esse momento.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Segundos desde o surgimento do Universo
 
 **Ideia:**  
@@ -403,7 +403,7 @@ inventasse um nome para um número muito grande. Assim nasceu o googol. Como voc
 deu origem ao nome de uma grande empresa da Internet. Um googol corresponde a 10<sup>100</sup>. Escreva um programa em Python
 que imprima um googol. Lembre-se de que a exponenciação em Python é representada por **.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Imprimindo um googol em Python
 
 **Ideia:**  
@@ -423,7 +423,7 @@ print(googol)
 Um googolplexo é dez elevado a um googol (10<sup>googol</sup>). Escreva um programa que imprima um googolplexo. Não execute!
 Este programa trava. Por quê?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — GoogoIplexo em Python
 
 **Ideia:**  
@@ -450,7 +450,7 @@ Vamos supor que podemos dobrar uma folha de papel quantas vezes quisermos. Essa 
 a dobrarmos 107 vezes, qual seria sua altura? Lembre-se de que a cada dobradura, a espessura dobra. Crie um programa que
 execute e imprima este cálculo.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Dobras de uma folha de papel
 
 **Ideia:**  
@@ -478,7 +478,7 @@ print("Altura após", n, "dobras:", altura, "mm")
 ### Exercício 2.15
 Faça um programa que dê o resultado do exercício anterior em metros, quilômetros e anos-luz.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Dobras de uma folha de papel (múltiplas unidades)
 
 **Ideia:**  
@@ -517,7 +517,7 @@ print(altura_anos_luz, "anos-luz")
 
 Procure valores mais precisos para &pi; (pi) e <i>e</i> (número de Euler). Substitua no Programa 2.12 e execute, anotando o resultado. Você consegue colocar dígitos suficientes para que o erro desapareça e Python dê como resultado zero?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 
 ### Exercício — Precisão na identidade de Euler
 
@@ -555,7 +555,7 @@ Ainda assim, o resultado será algo como:
 ### Exercício 2.17
 Escreva um programa que calcule o quadrado da hipotenusa de um triângulo de lados 3 e 4, usando o teorema de Pitágoras.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Quadrado da hipotenusa (Teorema de Pitágoras)
 
 **Ideia:**  
@@ -582,7 +582,7 @@ O programa calcula diretamente
 ### Exercício 2.18
 Escreva um programa que calcule a área de uma esfera de raio 5.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Área de uma esfera
 
 **Ideia:**  
@@ -613,7 +613,7 @@ Utilizar math.pi forneceria uma maior precisão do que definir manualmente o val
 O algoritmo da busca binária apresentado nesta seção pode ser ainda mais refinado. Como fazer para acrescentar detalhes a
 esse algoritmo?
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Refinando o algoritmo de busca binária
 
 **Ideia:**  
