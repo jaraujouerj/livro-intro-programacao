@@ -1,0 +1,181 @@
+data,circuito,energia_kwh
+2026-09-01,Climatização,541.28
+2026-09-02,Climatização,692.32
+2026-09-03,Climatização,560.01
+2026-09-04,Climatização,586.45
+2026-09-05,Climatização,185.8
+2026-09-06,Climatização,154.54
+2026-09-07,Climatização,623.87
+2026-09-08,Climatização,638.0
+2026-09-09,Climatização,649.17
+2026-09-10,Climatização,589.98
+2026-09-11,Climatização,641.17
+2026-09-12,Climatização,173.97
+2026-09-13,Climatização,155.22
+2026-09-14,Climatização,488.42
+2026-09-15,Climatização,598.43
+2026-09-16,Climatização,679.62
+2026-09-17,Climatização,521.52
+2026-09-18,Climatização,656.28
+2026-09-19,Climatização,176.18
+2026-09-20,Climatização,140.61
+2026-09-21,Climatização,681.93
+2026-09-22,Climatização,673.29
+2026-09-23,Climatização,665.67
+2026-09-24,Climatização,513.29
+2026-09-25,Climatização,668.41
+2026-09-26,Climatização,162.59
+2026-09-27,Climatização,184.25
+2026-09-28,Climatização,614.35
+2026-09-29,Climatização,596.23
+2026-09-30,Climatização,605.57
+2026-09-01,Iluminação,249.24
+2026-09-02,Iluminação,251.59
+2026-09-03,Iluminação,249.59
+2026-09-04,Iluminação,249.14
+2026-09-05,Iluminação,87.95
+2026-09-06,Iluminação,88.24
+2026-09-07,Iluminação,252.36
+2026-09-08,Iluminação,252.96
+2026-09-09,Iluminação,252.8
+2026-09-10,Iluminação,252.28
+2026-09-11,Iluminação,250.19
+2026-09-12,Iluminação,88.81
+2026-09-13,Iluminação,87.84
+2026-09-14,Iluminação,251.54
+2026-09-15,Iluminação,253.82
+2026-09-16,Iluminação,249.99
+2026-09-17,Iluminação,207.53
+2026-09-18,Iluminação,251.5
+2026-09-19,Iluminação,88.71
+2026-09-20,Iluminação,88.67
+2026-09-21,Iluminação,251.42
+2026-09-22,Iluminação,253.05
+2026-09-23,Iluminação,252.71
+2026-09-24,Iluminação,249.56
+2026-09-25,Iluminação,252.78
+2026-09-26,Iluminação,87.76
+2026-09-27,Iluminação,87.47
+2026-09-28,Iluminação,255.7
+2026-09-29,Iluminação,252.98
+2026-09-30,Iluminação,251.25
+2026-09-01,Laboratórios,278.21
+2026-09-02,Laboratórios,277.47
+2026-09-03,Laboratórios,279.53
+2026-09-04,Laboratórios,278.02
+2026-09-05,Laboratórios,42.05
+2026-09-06,Laboratórios,41.6
+2026-09-07,Laboratórios,276.64
+2026-09-08,Laboratórios,274.06
+2026-09-09,Laboratórios,276.69
+2026-09-10,Laboratórios,281.2
+2026-09-11,Laboratórios,282.42
+2026-09-12,Laboratórios,42.18
+2026-09-13,Laboratórios,42.13
+2026-09-14,Laboratórios,276.37
+2026-09-15,Laboratórios,277.0
+2026-09-16,Laboratórios,279.71
+2026-09-17,Laboratórios,203.9
+2026-09-18,Laboratórios,280.0
+2026-09-19,Laboratórios,41.74
+2026-09-20,Laboratórios,41.01
+2026-09-21,Laboratórios,279.29
+2026-09-22,Laboratórios,275.8
+2026-09-23,Laboratórios,273.58
+2026-09-24,Laboratórios,277.11
+2026-09-25,Laboratórios,279.4
+2026-09-26,Laboratórios,41.79
+2026-09-27,Laboratórios,41.47
+2026-09-28,Laboratórios,280.9
+2026-09-29,Laboratórios,279.93
+2026-09-30,Laboratórios,280.86
+2026-09-01,Servidores,274.74
+2026-09-02,Servidores,276.75
+2026-09-03,Servidores,270.3
+2026-09-04,Servidores,274.51
+2026-09-05,Servidores,277.0
+2026-09-06,Servidores,273.95
+2026-09-07,Servidores,272.15
+2026-09-08,Servidores,273.88
+2026-09-09,Servidores,275.04
+2026-09-10,Servidores,274.26
+2026-09-11,Servidores,276.16
+2026-09-12,Servidores,270.81
+2026-09-13,Servidores,272.31
+2026-09-14,Servidores,274.77
+2026-09-15,Servidores,276.28
+2026-09-16,Servidores,273.24
+2026-09-17,Servidores,242.83
+2026-09-18,Servidores,271.72
+2026-09-19,Servidores,270.13
+2026-09-20,Servidores,275.5
+2026-09-21,Servidores,276.29
+2026-09-22,Servidores,276.35
+2026-09-23,Servidores,276.95
+2026-09-24,Servidores,271.8
+2026-09-25,Servidores,275.24
+2026-09-26,Servidores,273.31
+2026-09-27,Servidores,278.28
+2026-09-28,Servidores,272.81
+2026-09-29,Servidores,274.65
+2026-09-30,Servidores,270.79
+2026-09-01,Elevadores,46.99
+2026-09-02,Elevadores,49.37
+2026-09-03,Elevadores,52.13
+2026-09-04,Elevadores,55.24
+2026-09-05,Elevadores,18.71
+2026-09-06,Elevadores,17.86
+2026-09-07,Elevadores,50.33
+2026-09-08,Elevadores,47.17
+2026-09-09,Elevadores,50.58
+2026-09-10,Elevadores,48.61
+2026-09-11,Elevadores,55.81
+2026-09-12,Elevadores,17.56
+2026-09-13,Elevadores,18.38
+2026-09-14,Elevadores,51.42
+2026-09-15,Elevadores,51.72
+2026-09-16,Elevadores,51.9
+2026-09-17,Elevadores,52.53
+2026-09-18,Elevadores,52.2
+2026-09-19,Elevadores,19.1
+2026-09-20,Elevadores,18.6
+2026-09-21,Elevadores,58.72
+2026-09-22,Elevadores,55.91
+2026-09-23,Elevadores,54.66
+2026-09-24,Elevadores,52.28
+2026-09-25,Elevadores,54.58
+2026-09-26,Elevadores,17.64
+2026-09-27,Elevadores,19.21
+2026-09-28,Elevadores,50.68
+2026-09-29,Elevadores,55.68
+2026-09-30,Elevadores,55.62
+2026-09-01,Bombas d'água,47.02
+2026-09-02,Bombas d'água,45.92
+2026-09-03,Bombas d'água,49.11
+2026-09-04,Bombas d'água,46.83
+2026-09-05,Bombas d'água,43.36
+2026-09-06,Bombas d'água,43.01
+2026-09-07,Bombas d'água,45.93
+2026-09-08,Bombas d'água,46.02
+2026-09-09,Bombas d'água,44.86
+2026-09-10,Bombas d'água,43.2
+2026-09-11,Bombas d'água,43.88
+2026-09-12,Bombas d'água,46.22
+2026-09-13,Bombas d'água,44.35
+2026-09-14,Bombas d'água,46.7
+2026-09-15,Bombas d'água,44.17
+2026-09-16,Bombas d'água,43.66
+2026-09-17,Bombas d'água,42.93
+2026-09-18,Bombas d'água,46.1
+2026-09-19,Bombas d'água,45.12
+2026-09-20,Bombas d'água,47.74
+2026-09-21,Bombas d'água,45.19
+2026-09-22,Bombas d'água,45.95
+2026-09-23,Bombas d'água,44.99
+2026-09-24,Bombas d'água,47.77
+2026-09-25,Bombas d'água,43.3
+2026-09-26,Bombas d'água,45.56
+2026-09-27,Bombas d'água,46.22
+2026-09-28,Bombas d'água,44.53
+2026-09-29,Bombas d'água,46.79
+2026-09-30,Bombas d'água,47.1

@@ -1,0 +1,7 @@
+circuito,potencia_instalada_kw,tipo_carga,setor
+Climatização,60,motores,Predial
+Iluminação,15,iluminação,Predial
+Laboratórios,25,equipamentos mistos,Ensino
+Servidores,12,eletrônica,TI
+Elevadores,10,motores,Predial
+Bombas d'água,8,motores,Hidráulica

@@ -21,9 +21,10 @@ Cada trabalho tem duas páginas:
 | Engenharia | Tema | Aluno | Professor |
 |---|---|---|---|
 | Produção | Análise de dados de produção com `pandas` e `matplotlib` | [Enunciado](producao/) | [Guia do professor](producao/professor/) |
+| Elétrica | Análise de energia e qualidade de uma instalação elétrica com `pandas`, `numpy` e `matplotlib` | [Enunciado](eletrica/) | [Guia do professor](eletrica/professor/) |
 
 ## Em preparação
 
-Civil, Elétrica, Mecânica, Ambiental, Cartográfica e Computação ainda não têm trabalho publicado. As sugestões de tema por engenharia estão nos [slides da Aula 26](../slides/aula26_lancamento_projeto.pdf).
+Civil, Mecânica, Ambiental, Cartográfica e Computação ainda não têm trabalho publicado. As sugestões de tema por engenharia estão nos [slides da Aula 26](../slides/aula26_lancamento_projeto.pdf).
 
 > 💡 Este site é público: o material "para o professor" não fica protegido. Gabaritos e soluções de referência por isso **não** são publicados aqui.
