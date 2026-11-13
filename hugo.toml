@@ -1,5 +1,6 @@
 baseURL = 'https://araujo.eng.uerj.br/livro/'
-#languageCode = 'en-us'
+languageCode = 'pt-BR'
+defaultContentLanguage = 'pt-br'
 title = 'Introdução à Programação e aos Algoritmos'
 theme = "hugo-book"
 

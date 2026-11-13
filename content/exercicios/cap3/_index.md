@@ -18,7 +18,7 @@ quadrado antes de calcular a área. (Use o conversor int)
 
 
 {{< solucao nivel="iniciante" >}}
-### Exercício — Área de um quadrado em Python
+### Exercício 3.1 — Área de um quadrado (conversor int)
 
 **Ideia:**  
 A área de um quadrado é dada pelo lado multiplicado por ele mesmo.
@@ -33,7 +33,7 @@ A área de um quadrado é dada pelo lado multiplicado por ele mesmo.
 Faça o mesmo programa do exercício anterior usando o conversor float.
 
 {{< solucao nivel="iniciante" >}}
-### Exercício — Área de um quadrado em Python
+### Exercício 3.2 — Área de um quadrado (conversor float)
 
 {{< codefile "assets/code/ex3.2_area_quadrado_float.py" >}}
 

@@ -26,14 +26,14 @@ Este site não substitui o livro. Ele amplia a experiência com exercícios, des
 
 ## 👨‍🏫 Para professores
 
-* [Slides por capítulo e plano de trabalho](./slides/)
+* [Slides das aulas e plano de trabalho](./slides/)
 * [Trabalhos para avaliação](./trabalhos/)
 
 ---
 
 
 
-## 🧭 Como usar este site -->
+## 🧭 Como usar este site
 
 * Estudante: resolva os exercícios do livro e use as soluções apenas para conferência.
 * Professor: os slides e listas são uma base para suas aulas e avaliações, sinta-se à vontade para usá-los.

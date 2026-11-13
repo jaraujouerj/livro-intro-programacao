@@ -1,6 +1,6 @@
 +++
 title = 'Errata'
-date = 2026-04-09T09:36:51-03:00
+date = 2026-11-13T09:36:51-03:00
 draft = false
 +++
 
@@ -9,23 +9,27 @@ draft = false
 [← Voltar](../)
 
 Esta página lista correções do livro organizadas por versão.  
-Se encontrar um erro, reporte via GitHub ou entre em contato.
+Se encontrar um erro, entre em contato com o autor {{< email user="araujo+errata" domain="eng.uerj.br" >}}
+.
 
 ---
 
-# Versão 1.2 (2026-04-09)
+# Versão 1.3
 
 ## Capítulo 2 — Bases da Programação
-### dica 2.1:
 
-No comando:
-```
-$ python3 ola.py
-```
-O correto é usar python2
+### Programa 2.2 (`ola.py`) — mensagem de erro de codificação
+
+**Imprecisão:** o livro mostra o comando `python3 ola.py` seguido da mensagem `SyntaxError: Non-ASCII character '\xc3' in file ola.py ... but no encoding declared`. Essa mensagem é característica do **Python 2**, e não do Python 3.
+
+**Correção:** para reproduzir o erro mostrado no livro, use o Python 2:
+
 ```bash
 $ python2 ola.py
 ```
+
+No Python 3 (usado em todo o livro e neste site) a codificação padrão dos arquivos é UTF-8 e o programa roda normalmente, sem a declaração de codificação.
+
 ## Capítulo 3 — Programação Estruturada
 
 ### Exercício 3.10
