@@ -26,29 +26,17 @@ Este site não substitui o livro. Ele amplia a experiência com exercícios, des
 
 ## 👨‍🏫 Para professores
 
-* [Slides por capítulo](./slides/)
-* [Listas de exercícios para avaliação](./professores/)
+* [Slides por capítulo e plano de trabalho](./slides/)
+* [Trabalhos para avaliação](./trabalhos/)
 
 ---
 
-## 📚 Organização por capítulo
 
-* [Capítulo 1 — Introdução aos Computadores](./exercicios/cap1/)
-* [Capítulo 2 — Bases da Programação](./exercicios/cap2/)
-* [Capítulo 3 — Programação Estruturada](./exercicios/cap3/)
-* [Capítulo 4 — Subalgoritmos](./exercicios/cap4/)
-* [Capítulo 5 — Organizando a Informação](./exercicios/cap5/)
-* [Capítulo 6 — Cadeias de Caracteres e Arquivos](./exercicios/cap6/)
-* [Capítulo 7 — Recursão](./exercicios/cap7/)
-* [Capítulo 8 — Ordenando Coisas](./exercicios/cap8/)
-* [Capítulo 9 — Um Pouco de Estilo](./exercicios/cap9/)
-
----
 
 ## 🧭 Como usar este site -->
 
 * Estudante: resolva os exercícios do livro e use as soluções apenas para conferência.
-* Professor: utilize os slides e listas como base para suas aulas e avaliações.
+* Professor: os slides e listas são uma base para suas aulas e avaliações, sinta-se à vontade para usá-los.
 
 ---
 
