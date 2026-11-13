@@ -31,7 +31,7 @@ de uma string.
 {{< /solucao >}}
 
 ---
-## 6.2 Fatianto Strings
+## 6.2 Fatiando Strings
 ### Exercício 6.4 — String invertida
 Escreva uma função que receba uma string como parâmetro e escreva-a invertida,
 usando apenas o fatiamento. Ex.: 'celacanto provoca maremoto' imprime

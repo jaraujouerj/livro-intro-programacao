@@ -219,7 +219,7 @@ resultante do item anterior.
 {{< /solucao >}}
 
 ---
-## 5.17 Operações em Listas
+## 5.7 Operações em Listas
 ### Exercício 5.17 — append() com lista
 O que acontece se você chama o comando `append()` com outra lista? Considere
 a lista `primos = [2, 3, 5, 7]` e que você use o comando
