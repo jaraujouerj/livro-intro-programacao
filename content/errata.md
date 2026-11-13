@@ -13,22 +13,22 @@ Se encontrar um erro, reporte via GitHub ou entre em contato.
 
 ---
 
-## Versão 1.2 (2026-04-09)
+# Versão 1.2 (2026-04-09)
 
-### Capítulo 2 — Bases da Programação
-Na dica 2.1, temos:
+## Capítulo 2 — Bases da Programação
+### dica 2.1:
 
-Ao executá-lo no ambiente de Python 2, vamos obter a seguinte mensagem de erro:
-
+No comando:
+```
 $ python3 ola.py
-
+```
 O correto é usar python2
-
+```bash
 $ python2 ola.py
+```
+## Capítulo 3 — Programação Estruturada
 
-### Capítulo 3 — Programação Estruturada
-
-#### Exercício 3.10
+### Exercício 3.10
 
 **Imprecisão no enunciado:** Enunciado do exercício ficou incompleto e misturou categorias.
 
@@ -63,18 +63,37 @@ Escreva um programa que solicite o peso (em kg) e a idade (em anos) de um cão e
 
 Considere que os valores informados são positivos.
 
-### Capítulo 4 - Subalgoritmos
+## Capítulo 4 - Subalgoritmos
+### Programa 4.1
+Erro no fechamento de parêntesis:
+```
+5 print ('O fatorial de', n, 'é', fat
+```
 
-#### Exercício 4.2
+O correto é:
+
+```python
+5 print ('O fatorial de', n, 'é', fat)
+```
+
+
+
+5 print ('O fatorial de', n, 'é', fat
+
+### Exercício 4.2
 - **Erro na faixa:** números devem começar em 10, não em 0.
   
 Escreva um programa que imprima uma tabela das raízes quadradas dos números
 entre 10 e 100, com incrementos de 10.
 
-### Capítulo 5 - Organizando a Informação
-#### Programa 5.31 
-Erro no for:
-**for i in range(n):**
+## Capítulo 5 - Organizando a Informação
+### Programa 5.31 
+Erro no for: 
+```
+for i in range(n):
+```
 
 o correto é: 
-**for i in range(lin):**
+```python
+for i in range(lin):
+```
