@@ -150,7 +150,7 @@ maior valor?
 {{< solucao nivel="iniciante" >}}
 Um número com 10 bits é uma sequência de 10 dígitos binários, onde cada dígito pode ser 0 ou 1.
 
-### Quantidade de números possíveis
+### Quantidade de números possíveis {#ex1-3-quantidade-de-numeros-possiveis}
 
 Cada bit tem 2 possibilidades. Portanto, o total de combinações é:
 2<sup>10</sup> = 1024
@@ -159,7 +159,7 @@ Cada bit tem 2 possibilidades. Portanto, o total de combinações é:
 
 ---
 
-### Menor valor
+### Menor valor {#ex1-3-menor-valor}
 
 O menor número ocorre quando todos os bits são 0:
 00 0000 0000<sub>2</sub> = 0
@@ -168,7 +168,7 @@ O menor número ocorre quando todos os bits são 0:
 
 ---
 
-### Maior valor
+### Maior valor {#ex1-3-maior-valor}
 
 O maior número ocorre quando todos os bits são 1:
 11 1111 1111<sub>2</sub>
@@ -616,7 +616,7 @@ Para converter de Mbit/s para Mibit/s:
 
 ---
 
-### Resumo
+### Resumo {#ex1-10-resumo}
 
 | Mbit/s | Mibit/s |
 | ------ | ------- |
@@ -646,7 +646,7 @@ Queremos saber quantos **TB (decimais)** são necessários para armazenar **1 Ti
 
 ---
 
-### Conclusão
+### Conclusão {#ex1-11-conclusao}
 
 Para armazenar 1 TiB, você precisa de um disco de **pelo menos 1,1 TB**.
 
@@ -684,7 +684,7 @@ Com 16 bits:
 
 ---
 
-### a) Sinal e valor
+### a) Sinal e valor {#ex1-12-a-sinal-e-valor}
 
 O bit mais significativo indica o sinal:
 - 0 → positivo
@@ -696,7 +696,7 @@ Mantemos o valor e colocamos sinal 1:
 
 ---
 
-### b) Complemento a 1
+### b) Complemento a 1 {#ex1-12-b-complemento-a-1}
 
 Invertemos todos os bits do valor positivo:
 
@@ -705,7 +705,7 @@ Invertemos todos os bits do valor positivo:
 
 ---
 
-### c) Complemento a 2
+### c) Complemento a 2 {#ex1-12-c-complemento-a-2}
 
 Somamos 1 ao complemento a 1:
 
@@ -719,7 +719,7 @@ Somamos 1 ao complemento a 1:
 
 ---
 
-### Resumo
+### Resumo {#ex1-12-resumo}
 
 | Representação   | Valor binário       |
 | --------------- | ------------------- |
@@ -755,7 +755,7 @@ Com 16 bits:
 
 ---
 
-### a) Sinal e valor
+### a) Sinal e valor {#ex1-13-a-sinal-e-valor}
 
 Para números positivos, o bit de sinal é 0:
 
@@ -763,7 +763,7 @@ Para números positivos, o bit de sinal é 0:
 
 ---
 
-### b) Complemento a 1
+### b) Complemento a 1 {#ex1-13-b-complemento-a-1}
 
 Para números positivos, a representação é igual ao valor binário:
 
@@ -771,7 +771,7 @@ Para números positivos, a representação é igual ao valor binário:
 
 ---
 
-### c) Complemento a 2
+### c) Complemento a 2 {#ex1-13-c-complemento-a-2}
 
 Também igual ao valor binário para números positivos:
 
@@ -779,7 +779,7 @@ Também igual ao valor binário para números positivos:
 
 ---
 
-### Resumo
+### Resumo {#ex1-13-resumo}
 
 | Representação   | Valor binário       |
 | --------------- | ------------------- |
@@ -805,7 +805,7 @@ Aqui, N = 511.
 
 ---
 
-#### Passo 1: aplicar o viés
+#### Passo 1: aplicar o viés {#ex1-14-passo-1-aplicar-o-vies}
 
 Valor: −215  
 
@@ -813,7 +813,7 @@ Valor: −215
 
 ---
 
-#### Passo 2: converter 296 para binário
+#### Passo 2: converter 296 para binário {#ex1-14-passo-2-converter-296-para-binario}
 
 296 ÷ 2 = 148 resto 0  
 148 ÷ 2 = 74 resto 0  
@@ -829,15 +829,15 @@ Valor: −215
 
 ---
 
-### Resultado em excesso–511
+### Resultado em excesso–511 {#ex1-14-resultado-em-excesso-511}
 
 **1 0010 1000**
 
 ---
 
-## Representação de –215 no menor número de bits
+### Representação de –215 no menor número de bits {#ex1-14-representacao-de-215-no-menor-numero-de-bits}
 
-### Qual o menor n?
+### Qual o menor n? {#ex1-14-qual-o-menor-n}
 
 Para representar **–215** em complemento a 2, precisamos que o intervalo cubra esse valor.
 
@@ -861,7 +861,7 @@ Portanto **N = 255**.
 
 
 
-### Resumo
+### Resumo {#ex1-14-resumo}
 
 - Representação (excesso–511): 01 0010 1000<sub>2</sub>  
 - Menor N possível: 255  (excesso-255)  
@@ -882,7 +882,7 @@ negativos?
 
 Primeiro, representamos os números com 8 bits.
 
-### Conversão para binário
+### Conversão para binário {#ex1-15-conversao-para-binario}
 
 120 (decimal):  
 120 = 0111 1000<sub>2</sub>  
@@ -892,7 +892,7 @@ Primeiro, representamos os números com 8 bits.
 
 ---
 
-### Soma binária
+### Soma binária {#ex1-15-soma-binaria}
 <pre>
  0111 1000  
 +0000 1000
@@ -904,11 +904,11 @@ Resultado: **1000 0000<sub>2</sub>**
 
 ---
 
-### Interpretação do resultado
+### Interpretação do resultado {#ex1-15-interpretacao-do-resultado}
 
 O valor obtido depende da forma de interpretação dos números binários:
 
-#### 1) Sem sinal (unsigned)
+#### 1) Sem sinal (unsigned) {#ex1-15-1-sem-sinal-unsigned}
 
 10000000<sub>2</sub> = 128  
 
@@ -916,7 +916,7 @@ Não há erro — o resultado está correto.
 
 ---
 
-#### 2) Sinal e valor
+#### 2) Sinal e valor {#ex1-15-2-sinal-e-valor}
 
 O bit mais significativo indica o sinal:
 
@@ -929,7 +929,7 @@ Resultado: **−0** (uma representação ambígua)
 
 ---
 
-#### 3) Complemento a 1
+#### 3) Complemento a 1 {#ex1-15-3-complemento-a-1}
 
 Invertendo os bits para obter o valor:
 
@@ -941,7 +941,7 @@ Resultado: **−127**
 
 ---
 
-#### 4) Complemento a 2
+#### 4) Complemento a 2 {#ex1-15-4-complemento-a-2}
 
 Interpretando diretamente:
 
@@ -952,7 +952,7 @@ O intervalo com 8 bits é de −128 a +127, e 128 não pode ser representado.
 
 ---
 
-### Conclusão
+### Conclusão {#ex1-15-conclusao}
 
 - A soma binária produz **10000000<sub>2</sub>**  
 - O resultado correto (128) não cabe em 8 bits com sinal  
@@ -977,7 +977,7 @@ Queremos representar −215,5 em **notação de vírgula fixa**. Primeiro, conve
 
 ---
 
-### Parte inteira (215)
+### Parte inteira (215) {#ex1-16-parte-inteira-215}
 
 215 ÷ 2 = 107 resto 1  
 107 ÷ 2 = 53 resto 1  
@@ -992,7 +992,7 @@ Queremos representar −215,5 em **notação de vírgula fixa**. Primeiro, conve
 
 ---
 
-### Parte fracionária (0,5)
+### Parte fracionária (0,5) {#ex1-16-parte-fracionaria-0-5}
 
 0,5 × 2 = 1,0 → parte inteira 1  
 
@@ -1000,13 +1000,13 @@ Queremos representar −215,5 em **notação de vírgula fixa**. Primeiro, conve
 
 ---
 
-### Representação em binário
+### Representação em binário {#ex1-16-representacao-em-binario}
 
 215,5 = 11010111,1<sub>2</sub>  
 
 ---
 
-### Inclusão do sinal
+### Inclusão do sinal {#ex1-16-inclusao-do-sinal}
 
 Usando sinal e valor:
 
@@ -1014,7 +1014,7 @@ Usando sinal e valor:
 
 ---
 
-### Número mínimo de bits
+### Número mínimo de bits {#ex1-16-numero-minimo-de-bits}
 
 - Parte inteira: 8 bits  
 - Parte fracionária: 1 bit  
@@ -1024,13 +1024,13 @@ Total: **10 bits**
 
 ---
 
-### Resultado final
+### Resultado final {#ex1-16-resultado-final}
 
 **1 11010111,1<sub>2</sub>**
 
 ---
 
-### Observação
+### Observação {#ex1-16-observacao}
 
 A notação de vírgula fixa exige definir previamente quantos bits são usados para a parte inteira e para a parte fracionária. Aqui usamos o mínimo necessário, mas em sistemas reais essa divisão é fixa (por exemplo, 16.16, 8.8 etc.).
 
@@ -1046,7 +1046,7 @@ Queremos representar −215,5 no padrão IEEE 754.
 
 ---
 
-## Passo 1: converter para binário
+### Passo 1: converter para binário {#ex1-17-passo-1-converter-para-binario}
 
 Parte inteira:  
 215 = 11010111<sub>2</sub>  
@@ -1058,30 +1058,30 @@ Parte fracionária:
 
 ---
 
-## Passo 2: normalização
+### Passo 2: normalização {#ex1-17-passo-2-normalizacao}
 
 11010111,1<sub>2</sub> = 1,10101111<sub>2</sub> × 2<sup>7</sup>  
 
 ---
 
-## Passo 3: sinal
+### Passo 3: sinal {#ex1-17-passo-3-sinal}
 
 Número negativo → bit de sinal = **1**
 
 ---
 
-## Precisão simples (32 bits)
+### Precisão simples (32 bits) {#ex1-17-precisao-simples-32-bits}
 
 - Sinal: 1 bit  
 - Expoente: 8 bits (viés = 127)  
 - Mantissa: 23 bits  
 
-### Expoente
+### Expoente {#ex1-17-expoente}
 
 7 + 127 = 134  
 134 = 10000110<sub>2</sub>  
 
-### Mantissa
+### Mantissa {#ex1-17-mantissa}
 
 Removendo o 1 implícito:  
 10101111 e completando com zeros:
@@ -1090,24 +1090,24 @@ Removendo o 1 implícito:
 
 ---
 
-### Resultado (32 bits)
+### Resultado (32 bits) {#ex1-17-resultado-32-bits}
 
 **1 10000110 10101111000000000000000**
 
 ---
 
-## Precisão dupla (64 bits)
+### Precisão dupla (64 bits) {#ex1-17-precisao-dupla-64-bits}
 
 - Sinal: 1 bit  
 - Expoente: 11 bits (viés = 1023)  
 - Mantissa: 52 bits  
 
-### Expoente
+### Expoente {#ex1-17-expoente-2}
 
 7 + 1023 = 1030  
 1030 = 10000000110<sub>2</sub>  
 
-### Mantissa
+### Mantissa {#ex1-17-mantissa-2}
 
 10101111 seguido de zeros até 52 bits:
 
@@ -1115,13 +1115,13 @@ Removendo o 1 implícito:
 
 ---
 
-### Resultado (64 bits)
+### Resultado (64 bits) {#ex1-17-resultado-64-bits}
 
 **1 10000000110 1010111100000000000000000000000000000000000000000000**
 
 ---
 
-## Observação
+### Observação {#ex1-17-observacao}
 
 Como 0,5 tem representação binária exata, o número −215,5 é representado **sem erro de arredondamento** em IEEE 754.
 
@@ -1137,7 +1137,7 @@ Queremos representar 0,1 (decimal) no padrão IEEE 754.
 
 ---
 
-## Passo 1: converter para binário
+### Passo 1: converter para binário {#ex1-18-passo-1-converter-para-binario}
 
 Multiplicações sucessivas por 2:
 
@@ -1155,65 +1155,65 @@ Multiplicações sucessivas por 2:
 
 ---
 
-## Passo 2: normalização
+### Passo 2: normalização {#ex1-18-passo-2-normalizacao}
 
 0,0001100110011... = 1,1001100110011... × 2<sup>−4</sup>  
 
 ---
 
-## Passo 3: sinal
+### Passo 3: sinal {#ex1-18-passo-3-sinal}
 
 Número positivo → bit de sinal = **0**
 
 ---
 
-## Precisão simples (32 bits)
+### Precisão simples (32 bits) {#ex1-18-precisao-simples-32-bits}
 
 - Sinal: 1 bit  
 - Expoente: 8 bits (viés = 127)  
 - Mantissa: 23 bits  
 
-### Expoente
+### Expoente {#ex1-18-expoente}
 
 −4 + 127 = 123  
 123 = 01111011<sub>2</sub>  
 
-### Mantissa (com arredondamento)
+### Mantissa (com arredondamento) {#ex1-18-mantissa-com-arredondamento}
 
 10011001100110011001101  
 
 ---
 
-### Resultado (32 bits)
+### Resultado (32 bits) {#ex1-18-resultado-32-bits}
 
 **0 01111011 10011001100110011001101**
 
 ---
 
-## Precisão dupla (64 bits)
+### Precisão dupla (64 bits) {#ex1-18-precisao-dupla-64-bits}
 
 - Sinal: 1 bit  
 - Expoente: 11 bits (viés = 1023)  
 - Mantissa: 52 bits  
 
-### Expoente
+### Expoente {#ex1-18-expoente-2}
 
 −4 + 1023 = 1019  
 1019 = 01111111011<sub>2</sub>  
 
-### Mantissa (com arredondamento)
+### Mantissa (com arredondamento) {#ex1-18-mantissa-com-arredondamento-2}
 
 1001100110011001100110011001100110011001100110011001  
 
 ---
 
-### Resultado (64 bits)
+### Resultado (64 bits) {#ex1-18-resultado-64-bits}
 
 **0 01111111011 1001100110011001100110011001100110011001100110011001**
 
 ---
 
-## Observação
+### Observação {#ex1-18-observacao}
 
 O número 0,1 **não tem representação finita em binário**, resultando em uma dízima periódica.  
 Por isso, IEEE 754 armazena uma aproximação, o que pode causar pequenos erros de precisão em cálculos.
