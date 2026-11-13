@@ -10,7 +10,6 @@ draft = false
 
 Esta página lista correções do livro organizadas por versão.  
 Se encontrar um erro, entre em contato com o autor {{< email user="araujo+errata" domain="eng.uerj.br" >}}
-.
 
 ---
 
