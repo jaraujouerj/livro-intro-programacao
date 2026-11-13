@@ -1,8 +1,9 @@
 ---
 title: "Guia do professor — Elétrica"
+description: "Guia do professor para o trabalho de Engenharia Elétrica: objetivos, armadilhas intencionais, perguntas e rubrica."
 weight: 2
 ---
-# ⚡ Trabalho de Engenharia Elétrica — Guia do professor
+# Trabalho de Engenharia Elétrica — Guia do professor
 
 [← Trabalho (aluno)](../) · [Trabalhos](../../)
 

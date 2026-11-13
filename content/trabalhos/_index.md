@@ -1,9 +1,10 @@
 ---
 title: "Trabalhos por Engenharia"
+description: "Trabalhos finais por engenharia para a disciplina Algoritmos Computacionais I: enunciados, dados e guias do professor."
 weight: 5
 bookCollapseSection: true
 ---
-# 🛠️ Trabalhos por Engenharia
+# Trabalhos por Engenharia
 
 [← Voltar](../)
 
@@ -18,10 +19,10 @@ Cada trabalho tem duas páginas:
 
 ## Trabalhos disponíveis
 
-| Engenharia | Tema | Aluno | Professor |
-|---|---|---|---|
-| Produção | Análise de dados de produção com `pandas` e `matplotlib` | [Enunciado](producao/) | [Guia do professor](producao/professor/) |
-| Elétrica | Análise de energia e qualidade de uma instalação elétrica com `pandas`, `numpy` e `matplotlib` | [Enunciado](eletrica/) | [Guia do professor](eletrica/professor/) |
+| Engenharia (enunciado) | Tema | Para o professor |
+|---|---|---|
+| [Produção](producao/) | Análise de dados de produção com `pandas` e `matplotlib` | [Guia do professor](producao/professor/) |
+| [Elétrica](eletrica/) | Análise de energia e qualidade de uma instalação elétrica com `pandas`, `numpy` e `matplotlib` | [Guia do professor](eletrica/professor/) |
 
 ## Em preparação
 

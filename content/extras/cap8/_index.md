@@ -1,11 +1,13 @@
 ---
 title: "Capítulo 8 — Ordenando Coisas"
+description: "Exercícios adicionais do capítulo 8 (Ordenando Coisas), para praticar, sem solução publicada."
 weight: 8
 bookCollapseSection: true
 ---
 
-# 📘 Exercícios — Capítulo 8 
-# Ordenando Coisas
+# Capítulo 8 — Ordenando Coisas
+
+*Exercícios adicionais, sem solução publicada.*
 
 [← Voltar](../)
 

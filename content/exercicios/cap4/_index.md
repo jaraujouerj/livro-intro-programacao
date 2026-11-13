@@ -1,10 +1,10 @@
 ---
 title: "Capítulo 4 — Subalgoritmos"
+description: "Exercícios do capítulo 4 do livro (Subalgoritmos), com soluções comentadas."
 weight: 4
 bookCollapseSection: true
 ---
-# 📘 Exercícios — Capítulo 4
-# Subalgoritmos
+# Capítulo 4 — Subalgoritmos
 
 [← Voltar](../)
 
@@ -12,9 +12,9 @@ bookCollapseSection: true
 ## 4.2 Módulos em Python
 ### Exercício 4.1 - Tabela com tangente
 Expanda a tabela de senos e cossenos para incluir também a tangente, usando a
-função math.tan(). Cuidado! Você tem de se preocupar com as tangentes de
+função `math.tan()`. Cuidado! Você tem de se preocupar com as tangentes de
 90 e 270 graus. Por quê? Trate estes casos especiais, evitando incorrer em erro. Use
-math.inf e -math.inf para indicar valores infinitos, positivos e negativos.
+`math.inf` e `-math.inf` para indicar valores infinitos, positivos e negativos.
 
 {{< solucao >}}
 ### Exercício — Senos e cossenos
@@ -42,7 +42,7 @@ seu quadrado e o seu cubo.
 ### Exercício — Quadrado e cubo
 {{< codefile "assets/code/ex4.3_quadrado_cubo.py" >}}
 
-Este exercício foi pensado para usar o módulo math, porém uma solução mais imediata e mais eficiente poderia ser:
+Este exercício foi pensado para usar o módulo `math`, porém uma solução mais imediata e mais eficiente poderia ser:
 
 {{< codefile "assets/code/ex4.3_quadrado_cubo_v2.py" >}}
 
@@ -69,9 +69,8 @@ semelhante à que imprimiu a árvore.
 ---
 
 ### Exercício 4.6 — Árvore de natal (for)
-Modifique o programa da árvore de natal para usar comandos for in
-range() em vez de escrever explicitamente cada linha. Você vai precisar de 4
-laços com for para desenhar a mesma árvore.
+Modifique o programa da árvore de natal para usar comandos `for in range()` em vez de escrever explicitamente cada linha. Você vai precisar de 4
+laços com `for` para desenhar a mesma árvore.
 
 {{< solucao >}}
 ### Exercício — Árvore de natal (for)
@@ -107,7 +106,7 @@ Escreva uma função que receba um valor inteiro e devolva seu quadrado.
 
 ---
 ### Exercício 4.9 - Temperatura em Fahrenheit
-Escreva uma função **fahrenheit(celsius)** que receba um valor de uma
+Escreva uma função `fahrenheit(celsius)` que receba um valor de uma
 temperatura Celsius e devolva seu equivalente em Fahrenheit. Usando esta
 função, imprima os valores equivalentes das temperaturas Celsius em Fahrenheit
 entre 0 e 100, com incrementos de 10. Use a fórmula: 
@@ -121,7 +120,7 @@ F = C * (9/5) + 32
 
 ---
 ### Exercício 4.10 - Celsius
-Escreva uma função celsius(fahrenheit) que receba um valor de uma
+Escreva uma função `celsius(fahrenheit)` que receba um valor de uma
 temperatura Fahrenheit e devolva seu equivalente em Celsius. Usando esta
 função, imprima os valores equivalentes das temperaturas Fahrenheit em Celsius
 entre 0 e 300, com incrementos de 10. Coloque comandos para que o usuário
@@ -136,7 +135,7 @@ função.
 
 ---
 ### Exercício 4.11 — Distância
-Escreva uma função distancia(x1, y1, x2, y2) que devolva a
+Escreva uma função `distancia(x1, y1, x2, y2)` que devolva a
 distância entre dois pontos cujas coordenadas cartesianas são (x1, y1) e
 (x2, y2).
 
@@ -161,8 +160,8 @@ terminar quando for digitado ‘0’.
 
 ---
 ### Exercício 4.13 — Dado de 6 lados
-Use o módulo random para simular o lançamento de um dado de 6 lados. Use a
-função randint().
+Use o módulo `random` para simular o lançamento de um dado de 6 lados. Use a
+função `randint()`.
 
 {{< solucao >}}
 ### Exercício — Dado de 6 lados
@@ -181,7 +180,7 @@ O Programa 4.16, com as linhas numeradas e os `import` do início:
 {{< codefile "assets/code/prog4.16_calcula_pi.py" "linenos=true" >}}
 
 {{< solucao >}}
-### Exercício 4.14 — Evolução da pilha do Programa 4.16
+### Exercício — Evolução da pilha do Programa 4.16
 
 **Como ler o desenho** (as mesmas convenções da Figura 4.9):
 
@@ -191,7 +190,7 @@ O Programa 4.16, com as linhas numeradas e os `import` do início:
 * Como na versão simplificada, só aparecem as funções do programa. Ficam de fora os módulos `r` e `m`, as funções predefinidas (`int`, `input`, `print`, `range`) e os nomes das próprias funções.
 * Os valores (`num = 1000`, `x = 0,42`, `y = 0,87`) são ilustrativos. Em cada execução os números sorteados são outros.
 
-[![Evolução da pilha do Programa 4.16](ex4.14_pilha_programa4.16.svg)](ex4.14_pilha_programa4.16.svg)
+[![Nove quadros mostrando a pilha de execução do Programa 4.16: as variáveis de calcula_pi, as chamadas a gera_coordenadas_aleatorias e coordenadas_dentro_circulo e o retorno final com pi e erro.](ex4.14_pilha_programa4.16.svg)](ex4.14_pilha_programa4.16.svg)
 
 *Clique na figura para abrir em tamanho real.*
 

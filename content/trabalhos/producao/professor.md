@@ -1,8 +1,9 @@
 ---
 title: "Guia do professor — Produção"
+description: "Guia do professor para o trabalho de Engenharia de Produção: objetivos, armadilhas intencionais, perguntas e rubrica."
 weight: 2
 ---
-# 🏭 Trabalho de Engenharia de Produção — Guia do professor
+# Trabalho de Engenharia de Produção — Guia do professor
 
 [← Trabalho (aluno)](../) · [Trabalhos](../../)
 

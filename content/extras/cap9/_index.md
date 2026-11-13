@@ -1,12 +1,14 @@
 ---
 title: "Capítulo 9 — Um Pouco de Estilo"
+description: "Exercícios adicionais do capítulo 9 (Um Pouco de Estilo), para praticar, sem solução publicada."
 weight: 9
 bookCollapseSection: true
 ---
 {{< katex />}}
 
-# 📘 Exercícios — Capítulo 9 
-# Estilo
+# Capítulo 9 — Um Pouco de Estilo
+
+*Exercícios adicionais, sem solução publicada.*
 [← Voltar](../)
 ---
 ### Exercícios sobre Planejamento e Design

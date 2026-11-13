@@ -1,11 +1,13 @@
 ---
 title: "Capítulo 3 — Programação Estruturada"
+description: "Exercícios adicionais do capítulo 3 (Programação Estruturada), para praticar, sem solução publicada."
 weight: 3
 bookCollapseSection: true
 ---
 
-# 📘 Exercícios — Capítulo 3 
-# Programação Estruturada
+# Capítulo 3 — Programação Estruturada
+
+*Exercícios adicionais, sem solução publicada.*
 
 [← Voltar](../)
 

@@ -1,11 +1,13 @@
 ---
 title: "Capítulo 2 — Bases da Programação"
+description: "Exercícios adicionais do capítulo 2 (Bases da Programação), para praticar, sem solução publicada."
 weight: 2
 bookCollapseSection: true
 ---
 
-# 📘 Exercícios — Capítulo 2 
-# Bases da Programação
+# Capítulo 2 — Bases da Programação
+
+*Exercícios adicionais, sem solução publicada.*
 
 [← Voltar](../)
 

@@ -8,3 +8,7 @@ theme = "hugo-book"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params]
+  description = 'Exercícios resolvidos, slides e trabalhos para o livro Introdução à Programação e aos Algoritmos.'
+  images = ['images/livroalgoritmos.png']

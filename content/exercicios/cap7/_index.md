@@ -1,10 +1,10 @@
 ---
 title: "Capítulo 7 — Recursão"
+description: "Exercícios do capítulo 7 do livro (Recursão), com soluções comentadas."
 weight: 7
 bookCollapseSection: true
 ---
-# 📘 Exercícios — Capítulo 7
-# Recursão
+# Capítulo 7 — Recursão
 
 [← Voltar](../)
 
@@ -49,7 +49,7 @@ nada na lama", "a base do teto desaba".
 Escreva uma função que calcule o fatorial de um número. O fatorial pode ser
 definido como:
 
-fat(n) = 1, se n é 0 ou n × fat(n−1), se n é maior que 0
+`fat(n) = 1`, se `n` é 0, ou `n × fat(n−1)`, se `n` é maior que 0
 
 {{< solucao >}}
 ### Exercício — Fatorial recursivo

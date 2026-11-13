@@ -1,10 +1,10 @@
 ---
 title: "Capítulo 8 — Ordenação"
+description: "Exercícios do capítulo 8 do livro (Ordenação), com soluções comentadas."
 weight: 8
 bookCollapseSection: true
 ---
-# 📘 Exercícios — Capítulo 8
-# Ordenação
+# Capítulo 8 — Ordenação
 
 [← Voltar](../)
 

@@ -1,13 +1,15 @@
 ---
 title: "Capítulo 4 — Subalgoritmos"
+description: "Exercícios adicionais do capítulo 4 (Subalgoritmos), para praticar, sem solução publicada."
 weight: 4
 bookCollapseSection: true
 ---
 
 {{< katex />}}
 
-# 📘 Exercícios — Capítulo 4 
-# Subalgoritmos
+# Capítulo 4 — Subalgoritmos
+
+*Exercícios adicionais, sem solução publicada.*
 
 [← Voltar](../)
 

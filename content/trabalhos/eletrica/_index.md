@@ -1,10 +1,11 @@
 ---
 title: "Engenharia Elétrica"
+description: "Trabalho final de Engenharia Elétrica: análise de energia e qualidade de uma instalação com pandas, numpy e matplotlib, com enunciado em PDF e dados."
 weight: 2
 bookCollapseSection: false
 ---
-# ⚡ Trabalho Final — Engenharia Elétrica
-# Análise de Energia de uma Instalação Elétrica
+# Trabalho Final — Engenharia Elétrica
+**Análise de Energia de uma Instalação Elétrica**
 
 [← Trabalhos](../) · [Guia do professor](professor/)
 

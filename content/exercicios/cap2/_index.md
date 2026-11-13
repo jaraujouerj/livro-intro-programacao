@@ -1,12 +1,11 @@
 ---
 title: "Capítulo 2 — Bases da Programação"
+description: "Exercícios do capítulo 2 do livro (Bases da Programação), com soluções comentadas."
 weight: 2
 bookCollapseSection: true
 ---
 
-# 📘 Exercícios — Capítulo 2
-
-# Bases da Programação
+# Capítulo 2 — Bases da Programação
 
 [← Voltar](../)
 
@@ -277,22 +276,22 @@ Desenhe fluxogramas para os algoritmos que você desenvolveu na Seção 2.3.
 #### Fluxograma para algoritmo de busca em dicionário
 {{< solucao >}}
 
-![Exercício 2.3](exerc2.3.png)
+![Fluxograma da busca de uma palavra no dicionário: lê a palavra procurada e a primeira palavra do dicionário; enquanto houver palavra, compara a atual com a procurada (se forem iguais, imprime a definição; se a atual for maior, imprime que a palavra não existe; senão lê a próxima); se as palavras acabarem, imprime que a palavra não existe.](exerc2.3.png)
 {{< /solucao >}}
 
 #### Fluxograma para algoritmo de multiplicação
 {{< solucao >}}
-![Exercício 2.4](exerc2.4.png)
+![Fluxograma da multiplicação por somas sucessivas: lê a e b, troca os sinais negativos guardando o sinal do resultado, soma a ao resultado b vezes e, no fim, corrige o sinal e imprime o resultado.](exerc2.4.png)
 {{< /solucao >}}
 
 #### Fluxograma para algoritmo de exponenciação
 {{< solucao >}}
-![Exercício 2.5](exerc2.5.png)
+![Fluxograma da exponenciação por multiplicações sucessivas: lê a e b; se b é 0 o resultado é 1, se a é 0 o resultado é 0; senão repete, enquanto b for maior que 1, uma multiplicação feita por somas, e imprime o resultado.](exerc2.5.png)
 {{< /solucao >}}
 
 #### Fluxograma para algoritmo de divisão
 {{< solucao >}}
-![Exercício 2.6](exerc2.6.png)
+![Fluxograma da divisão inteira por subtrações sucessivas: lê dividendo e divisor, avisa divisão por zero, trata os sinais, subtrai o divisor do resto enquanto o resto não for menor que ele, contando o quociente, e imprime quociente e resto.](exerc2.6.png)
 
 {{< /solucao >}}
 

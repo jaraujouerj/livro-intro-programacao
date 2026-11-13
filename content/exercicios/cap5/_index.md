@@ -1,10 +1,10 @@
 ---
 title: "Capítulo 5 — Organizando a Informação"
+description: "Exercícios do capítulo 5 do livro (Organizando a Informação), com soluções comentadas."
 weight: 5
 bookCollapseSection: true
 ---
-# 📘 Exercícios — Capítulo 5
-# Organizando a Informação
+# Capítulo 5 — Organizando a Informação
 
 [← Voltar](../)
 
@@ -43,7 +43,7 @@ for fahr in range(0, 301, 20):
 ---
 ### Exercício 5.3 — Fahrenheit com try...except
 Reescreva o programa 5.14 validando a entrada de dados do usuário, usando a
-estrutura try...except.
+estrutura `try...except`.
 
 {{< solucao >}}
 ### Exercício — Fahrenheit com try...except
@@ -53,7 +53,7 @@ estrutura try...except.
 
 ---
 ### Exercício 5.4 — Fahrenheit com while
-Reescreva o Programa 5.13 usando o comando while.
+Reescreva o Programa 5.13 usando o comando `while`.
 
 {{< solucao >}}
 ### Exercício — Fahrenheit com while

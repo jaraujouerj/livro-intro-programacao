@@ -1,10 +1,10 @@
 ---
 title: "Capítulo 6 — Strings e Arquivos"
+description: "Exercícios do capítulo 6 do livro (Strings e Arquivos), com soluções comentadas."
 weight: 6
 bookCollapseSection: true
 ---
-# 📘 Exercícios — Capítulo 6
-# Strings e Arquivos
+# Capítulo 6 — Strings e Arquivos
 
 [← Voltar](../)
 

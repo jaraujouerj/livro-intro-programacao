@@ -1,19 +1,18 @@
 ---
 title: "Capítulo 3 — Programação Estruturada"
+description: "Exercícios do capítulo 3 do livro (Programação Estruturada), com soluções comentadas."
 weight: 3
 bookCollapseSection: true
 ---
 
-# 📘 Exercícios — Capítulo 3
-
-# Programação Estruturada
+# Capítulo 3 — Programação Estruturada
 
 [← Voltar](../)
 
 ## 3.2 Tomando uma Decisão
 ### Exercício 3.1
 Modifique o programa do exercício 2.9 de forma que este peça o valor do lado do
-quadrado antes de calcular a área. (Use o conversor int)
+quadrado antes de calcular a área. (Use o conversor `int`)
 
 
 
@@ -30,7 +29,7 @@ A área de um quadrado é dada pelo lado multiplicado por ele mesmo.
 
 ---
 ### Exercício 3.2
-Faça o mesmo programa do exercício anterior usando o conversor float.
+Faça o mesmo programa do exercício anterior usando o conversor `float`.
 
 {{< solucao >}}
 ### Exercício 3.2 — Área de um quadrado (conversor float)
@@ -237,7 +236,7 @@ programa deve calcular a média quando o usuário digitar o número zero.
 ---
 ## 3.6 Laços Contados
 ### Exercício 3.13
-Reescreva o Exercício 3.11 usando o comando for.
+Reescreva o Exercício 3.11 usando o comando `for`.
 
 {{< solucao >}}
 ### Exercício — Soma dos quadrados (for)
