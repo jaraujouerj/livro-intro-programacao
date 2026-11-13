@@ -1,6 +1,5 @@
-#baseURL = 'https://example.org/'
+baseURL = 'https://araujo.eng.uerj.br/livro/'
 #languageCode = 'en-us'
-baseURL = "livro/"
 title = 'Introdução à Programação e aos Algoritmos'
 theme = "hugo-book"
 
