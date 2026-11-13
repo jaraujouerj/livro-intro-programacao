@@ -19,3 +19,7 @@ Aqui você encontra novos exercícios para cada capítulo do livro, que ampliam 
 - [Capítulo 7 — Recursão](cap7/)
 - [Capítulo 8 — Ordenando Coisas](cap8/)
 - [Capítulo 9 — Um Pouco de Estilo](cap9/)
+
+## Licença
+
+Os exercícios adicionais são de autoria de João Araujo Ribeiro e estão sob a licença [Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br). Você pode copiá-los e adaptá-los, desde que dê o crédito e mantenha a mesma licença.

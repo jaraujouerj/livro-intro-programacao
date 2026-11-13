@@ -1,7 +1,8 @@
 # Licença
 
 As soluções comentadas dos exercícios (texto em `content/exercicios/` e programas em
-`assets/code/`) e as demais páginas escritas pelo autor deste site estão licenciadas sob a
+`assets/code/`), os exercícios adicionais (`content/extras/`) e as demais páginas escritas pelo
+autor deste site estão licenciadas sob a
 **Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**.
 
 Você pode copiar, redistribuir e adaptar o material, inclusive para uso comercial, desde que
