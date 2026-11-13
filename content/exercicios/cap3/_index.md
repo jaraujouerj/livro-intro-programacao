@@ -137,13 +137,13 @@ triângulo e imprima se ele é equilátero, isósceles ou escaleno.
 ### Exercício 3.9
 Considere que um ser humano pode ser classificado segundo sua idade nas
 seguintes faixas etárias:
-•Bebê (nascimento até 3 anos).
-•Criança (4 até 7 anos).
-•Pré-adolescente (8 até 12 anos).
-•Adolescente (13 até 20 anos).
-•Jovem (21 a 40 anos).
-• Meia-idade (41 até 64 anos).
-• Idoso (65 anos em diante).
+ - Bebê (nascimento até 3 anos).
+ - Criança (4 até 7 anos).
+ - Pré-adolescente (8 até 12 anos).
+ - Adolescente (13 até 20 anos).
+ - Jovem (21 a 40 anos).
+ - Meia-idade (41 até 64 anos).
+ - Idoso (65 anos em diante).
 
 Escreva um programa que solicite uma idade e imprima a classificação
 correspondente.
