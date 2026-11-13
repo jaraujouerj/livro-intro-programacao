@@ -2,14 +2,9 @@
 title: "Capítulo 2 — Bases da Programação"
 description: "Exercícios adicionais do capítulo 2 (Bases da Programação), para praticar, sem solução publicada."
 weight: 2
-bookCollapseSection: true
 ---
-
-# Capítulo 2 — Bases da Programação
-
 *Exercícios adicionais, sem solução publicada.*
 
-[← Voltar](../)
 
 ---
 

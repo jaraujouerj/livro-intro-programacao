@@ -2,12 +2,6 @@
 title: "Capítulo 7 — Recursão"
 description: "Exercícios do capítulo 7 do livro (Recursão), com soluções comentadas."
 weight: 7
-bookCollapseSection: true
----
-# Capítulo 7 — Recursão
-
-[← Voltar](../)
-
 ---
 ## 7.2 Cálculo Recursivo para Tamanho de Lista
 ### Exercício 7.1 — String na ordem inversa

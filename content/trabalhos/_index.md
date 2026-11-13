@@ -2,14 +2,10 @@
 title: "Trabalhos por Engenharia"
 description: "Trabalhos finais por engenharia para a disciplina Algoritmos Computacionais I: enunciados, dados e guias do professor."
 weight: 5
-bookCollapseSection: true
+type: docs
+cascade:
+  type: docs
 ---
-# Trabalhos por Engenharia
-
-[← Voltar](../)
-
----
-
 No projeto final de *Algoritmos Computacionais I*, cada engenharia trabalha com um problema **da sua própria área**, em vez de um trabalho genérico. Todos seguem o mesmo método (especificar antes de programar, documentar o uso de IA, testar o código e defender oralmente), mas com dados e perguntas próprios de cada curso.
 
 Cada trabalho tem duas páginas:

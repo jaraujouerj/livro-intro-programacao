@@ -1,0 +1,54 @@
+/* Caixa de solução: recolhida por padrão, cores que acompanham o tema claro/escuro. */
+.solucao-box {
+  margin: 1.2em 0;
+  border: 1px solid rgb(46 125 50 / 0.35);
+  border-left: 4px solid #2e7d32;
+  border-radius: 0.5rem;
+  background: rgb(46 125 50 / 0.06);
+}
+html.dark .solucao-box {
+  border-color: rgb(129 199 132 / 0.35);
+  border-left-color: #66bb6a;
+  background: rgb(102 187 106 / 0.08);
+}
+.solucao-titulo {
+  cursor: pointer;
+  padding: 0.6em 1em;
+  font-weight: 600;
+  color: #2e7d32;
+  list-style: none;
+  user-select: none;
+}
+html.dark .solucao-titulo { color: #81c784; }
+.solucao-titulo::-webkit-details-marker { display: none; }
+.solucao-titulo::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.15s;
+}
+.solucao-box[open] > .solucao-titulo::before { transform: rotate(90deg); }
+.solucao-conteudo { padding: 0 1em 1em; overflow-x: auto; }
+.solucao-conteudo > :first-child { margin-top: 0; }
+
+/* Figuras (SVG/PNG) nunca ultrapassam a coluna */
+.content img { max-width: 100%; height: auto; }
+
+/* Tabelas de aulas: o link da primeira coluna não quebra em duas linhas */
+.content table td:first-child a { white-space: nowrap; }
+
+/* Home: capa do livro ao lado do texto (empilha no celular) */
+.capa-livro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.capa-livro img {
+  width: 11rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 0.2);
+}
+.capa-livro > div { flex: 1 1 18rem; }

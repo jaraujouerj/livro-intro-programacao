@@ -4,11 +4,6 @@ description = 'Correções do livro Introdução à Programação e aos Algoritm
 date = 2026-11-13T09:36:51-03:00
 draft = false
 +++
-
-# Errata
-
-[← Voltar](../)
-
 Esta página lista correções do livro organizadas por versão.  
 Se encontrar um erro, entre em contato com o autor {{< email user="araujo+errata" domain="eng.uerj.br" >}}
 

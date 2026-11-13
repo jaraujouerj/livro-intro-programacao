@@ -2,12 +2,6 @@
 title: "Capítulo 6 — Strings e Arquivos"
 description: "Exercícios do capítulo 6 do livro (Strings e Arquivos), com soluções comentadas."
 weight: 6
-bookCollapseSection: true
----
-# Capítulo 6 — Strings e Arquivos
-
-[← Voltar](../)
-
 ---
 ## 6.1 Strings
 ### Exercício 6.1 — Romani ite domum

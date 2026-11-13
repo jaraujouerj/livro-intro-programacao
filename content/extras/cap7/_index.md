@@ -2,30 +2,24 @@
 title: "Capítulo 7 — Recursão"
 description: "Exercícios adicionais do capítulo 7 (Recursão), para praticar, sem solução publicada."
 weight: 7
-bookCollapseSection: true
 ---
-{{< katex />}}
-
-# Capítulo 7 — Recursão
-
 *Exercícios adicionais, sem solução publicada.*
 
-[← Voltar](../)
 
 ---
 ### Exercícios Propostos
 
-**1. Multiplicação por Somas Sucessivas:** Escreva uma função recursiva que calcule o produto de dois números inteiros (\\(a \times b\\)) utilizando apenas a operação de soma. Lembre-se: \\(a \times b = a + (a \times (b-1))\\).
+**1. Multiplicação por Somas Sucessivas:** Escreva uma função recursiva que calcule o produto de dois números inteiros (\(a \times b\)) utilizando apenas a operação de soma. Lembre-se: \(a \times b = a + (a \times (b-1))\).
 
-**2. Potência Recursiva:** Crie uma função que receba a **base** e o **expoente** e retorne o resultado da potência (\\(base^{expoente}\\)) de forma recursiva, sem utilizar o operador `**`.
+**2. Potência Recursiva:** Crie uma função que receba a **base** e o **expoente** e retorne o resultado da potência (\(base^{expoente}\)) de forma recursiva, sem utilizar o operador `**`.
 
-**3. Soma de Dígitos:** Escreva uma função recursiva que receba um número inteiro positivo e retorne a **soma de seus dígitos** (Exemplo: 123 retorna \\(1+2+3 = 6\\)).
+**3. Soma de Dígitos:** Escreva uma função recursiva que receba um número inteiro positivo e retorne a **soma de seus dígitos** (Exemplo: 123 retorna \(1+2+3 = 6\)).
 
-**4. Máximo Divisor Comum (MDC):** Implemente o algoritmo de Euclides de forma recursiva para encontrar o MDC de dois números: \\(MDC(a, b) = MDC(b, a \bmod b)\\), com o caso trivial sendo quando o resto é zero.
+**4. Máximo Divisor Comum (MDC):** Implemente o algoritmo de Euclides de forma recursiva para encontrar o MDC de dois números: \(MDC(a, b) = MDC(b, a \bmod b)\), com o caso trivial sendo quando o resto é zero.
 
 **5. Resto da Divisão:** Crie uma função recursiva que calcule o **resto da divisão inteira** entre dois números usando apenas subtrações sucessivas.
 
-**6. Somatório de N:** Escreva uma função que receba um número \\(n\\) e retorne a **soma de todos os inteiros** de 1 até \\(n\\).
+**6. Somatório de N:** Escreva uma função que receba um número \(n\) e retorne a **soma de todos os inteiros** de 1 até \(n\).
 
 ### Exercícios de Processamento de Sequências
 
@@ -47,7 +41,7 @@ bookCollapseSection: true
 
 **14. Troca de Letras:** Escreva uma função que receba uma string e substitua recursivamente todas as letras "a" por "*".
 
-**15. Fatorial Duplo:** O fatorial duplo de \\(n\\) (\\(n!!\\)) é o produto de todos os números de \\(n\\) até 1 com o mesmo passo de 2 (Exemplo: \\(5!! = 5 \times 3 \times 1\\)). Implemente-o recursivamente.
+**15. Fatorial Duplo:** O fatorial duplo de \(n\) (\(n!!\)) é o produto de todos os números de \(n\) até 1 com o mesmo passo de 2 (Exemplo: \(5!! = 5 \times 3 \times 1\)). Implemente-o recursivamente.
 
 **16. Conversão de Base:** Desenvolva uma função recursiva que receba um número decimal e retorne sua representação em **binário** como uma string.
 

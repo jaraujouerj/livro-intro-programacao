@@ -1,2 +1,9 @@
-{{ $file := .Get 0 }}
-{{ highlight (readFile $file) "python" (.Get 1) }}
+{{- /*
+Mostra um arquivo de código como bloco de código do tema (com botão de copiar).
+Uso: {{< codefile "assets/code/arquivo.py" >}}  ou  {{< codefile "arquivo.py" "linenos=true" >}}
+*/ -}}
+{{- $file := .Get 0 -}}
+{{- $info := "python" -}}
+{{- with .Get 1 }}{{ $info = printf "python {%s}" . }}{{ end -}}
+{{- $code := readFile $file | strings.TrimRight "\n" -}}
+{{- printf "```%s\n%s\n```" $info $code | $.Page.RenderString (dict "display" "block") -}}

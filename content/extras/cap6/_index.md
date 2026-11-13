@@ -2,14 +2,9 @@
 title: "Capítulo 6 — Cadeias de Caracteres e Arquivos"
 description: "Exercícios adicionais do capítulo 6 (Cadeias de Caracteres e Arquivos), para praticar, sem solução publicada."
 weight: 6
-bookCollapseSection: true
 ---
-
-# Capítulo 6 — Cadeias de Caracteres e Arquivos
-
 *Exercícios adicionais, sem solução publicada.*
 
-[← Voltar](../)
 
 ---
 

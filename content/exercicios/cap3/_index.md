@@ -2,13 +2,7 @@
 title: "Capítulo 3 — Programação Estruturada"
 description: "Exercícios do capítulo 3 do livro (Programação Estruturada), com soluções comentadas."
 weight: 3
-bookCollapseSection: true
 ---
-
-# Capítulo 3 — Programação Estruturada
-
-[← Voltar](../)
-
 ## 3.2 Tomando uma Decisão
 ### Exercício 3.1
 Modifique o programa do exercício 2.9 de forma que este peça o valor do lado do

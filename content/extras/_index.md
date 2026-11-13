@@ -2,13 +2,10 @@
 title: "Exercícios adicionais"
 description: "Exercícios adicionais para praticar, capítulo a capítulo, sem soluções publicadas."
 weight: 50
-bookCollapseSection: true
+type: docs
+cascade:
+  type: docs
 ---
-
-# Exercícios adicionais
-
-[← Voltar](../)
-
 Aqui você encontra novos exercícios para cada capítulo do livro, que ampliam os conceitos vistos. **Não há solução publicada**: o objetivo é desenvolver autonomia, e prática é importante.
 
 ## Exercícios por capítulo

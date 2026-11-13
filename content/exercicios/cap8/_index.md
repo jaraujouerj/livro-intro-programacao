@@ -2,12 +2,6 @@
 title: "Capítulo 8 — Ordenação"
 description: "Exercícios do capítulo 8 do livro (Ordenação), com soluções comentadas."
 weight: 8
-bookCollapseSection: true
----
-# Capítulo 8 — Ordenação
-
-[← Voltar](../)
-
 ---
 ## 8.1 Ordenando uma Lista
 ### Exercício 8.1 — Bolha com nomes

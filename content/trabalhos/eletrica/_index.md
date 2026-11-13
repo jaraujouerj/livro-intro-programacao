@@ -2,12 +2,10 @@
 title: "Engenharia Elétrica"
 description: "Trabalho final de Engenharia Elétrica: análise de energia e qualidade de uma instalação com pandas, numpy e matplotlib, com enunciado em PDF e dados."
 weight: 2
-bookCollapseSection: false
 ---
-# Trabalho Final — Engenharia Elétrica
 **Análise de Energia de uma Instalação Elétrica**
 
-[← Trabalhos](../) · [Guia do professor](professor/)
+[Guia do professor](professor/)
 
 ---
 
@@ -28,9 +26,9 @@ O trabalho usa `pandas` (manipulação de dados), `numpy` (cálculos) e `matplot
 
 **Grandezas que você vai usar.** Em cada hora, a medição traz a potência ativa *P* (kW), a potência reativa *Q* (kvar), as tensões e as correntes das três fases. A potência aparente e o fator de potência são calculados por você:
 
-```katex
+$$
 S = \sqrt{P^2 + Q^2} \quad (\text{kVA}) \qquad\qquad FP = \frac{P}{S}
-```
+$$
 
 ## 2. Arquivos fornecidos
 
@@ -95,18 +93,18 @@ Carregue com `pd.read_csv(...)`. A coluna `data` vem como texto: converta para `
 3. **As tensões das três fases ficaram dentro da faixa adequada de 117 V a 133 V?** Qual fase teve mais horas fora dos limites, e existe relação com a demanda (tensão × potência)?
 4. **Qual circuito mais consome, e qual tem o maior fator de carga?** Combine `consumo_circuitos.csv` com `cargas_instaladas.csv`, usando:
 
-```katex
+$$
 FC = \frac{\text{energia consumida no mês}}{\text{potência instalada} \times \text{horas do mês}}
-```
+$$
 
 **Opcionais (pontuação extra):**
 
-5. **Desequilíbrio entre fases.** Calcule, hora a hora, o desequilíbrio de corrente {{< katex >}}(I_{\max} - I_{\text{média}})/I_{\text{média}}{{< /katex >}} e verifique em quantas horas passa de 10%.
+5. **Desequilíbrio entre fases.** Calcule, hora a hora, o desequilíbrio de corrente \((I_{\max} - I_{\text{média}})/I_{\text{média}}\) e verifique em quantas horas passa de 10%.
 6. **Correção do fator de potência.** Para a hora de maior demanda, calcule a potência reativa do banco de capacitores para elevar o *FP* a 0,95:
 
-```katex
+$$
 Q_c = P\,(\tan\varphi_1 - \tan\varphi_2), \qquad \varphi = \arccos(FP)
-```
+$$
 
 7. **Tarifa.** Compare o custo mensal na tarifa convencional (R\$ 0,80/kWh) com uma tarifa por horário (ponta, das 18h às 20h59: R\$ 1,30; intermediária, 17h–17h59 e 21h–21h59: R\$ 0,95; fora de ponta: R\$ 0,60). *Valores fictícios, só para o exercício.*
 
