@@ -22,16 +22,18 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx:mb-6">
-{{< hextra/hero-button text="Ver os exercícios" link="exercicios" >}}
-</div>
+<div class="content hx:mt-4 hx:mb-6">
 
-<div class="hx:mt-6"></div>
+## Para estudantes
+
+Tente resolver cada exercício antes de abrir a solução, que serve apenas para conferência. Programar exige prática.
+
+</div>
 
 {{< hextra/feature-grid cols="2" >}}
   {{< hextra/feature-card
     title="Exercícios do livro"
-    subtitle="Enunciados dos capítulos 1 a 9, com solução comentada. Tente resolver antes de abrir a solução."
+    subtitle="Enunciados dos capítulos 1 a 9, com solução comentada."
     link="exercicios"
     icon="academic-cap"
   >}}
@@ -41,6 +43,17 @@ layout: hextra-home
     link="extras"
     icon="pencil"
   >}}
+{{< /hextra/feature-grid >}}
+
+<div class="content hx:mt-12 hx:mb-6">
+
+## Para professores
+
+Os slides, os planos e os trabalhos são uma base para suas aulas e avaliações. Sinta-se à vontade para usá-los e adaptá-los.
+
+</div>
+
+{{< hextra/feature-grid cols="2" >}}
   {{< hextra/feature-card
     title="Slides e plano de trabalho"
     subtitle="Uma apresentação por aula, em PDF, com o plano da disciplina. O LaTeX e o código estão no GitHub."
@@ -59,11 +72,18 @@ layout: hextra-home
 
 ## Sobre o livro
 
-O conteúdo teórico completo está no livro *Introdução à Programação e aos Algoritmos* (LTC, 2019). Este site é um complemento prático para estudantes e docentes.
+<div class="capa-livro">
 
 [![Capa do livro Introdução à Programação e aos Algoritmos, de João Araujo Ribeiro](images/livroalgoritmos.png)](https://amzn.to/4aY4eBW)
 
-* **Estudantes:** resolva os exercícios do livro e use as soluções apenas para conferência.
-* **Professores:** os slides e as listas são uma base para suas aulas e avaliações. Sinta-se à vontade para usá-los.
+<div>
+
+O conteúdo teórico completo está no livro *Introdução à Programação e aos Algoritmos* (LTC, 2019), de João Araujo Ribeiro. Este site é um complemento prático para estudantes e docentes: ele não substitui o livro.
+
+[Comprar o livro](https://amzn.to/4aY4eBW)
+
+</div>
+
+</div>
 
 </div>

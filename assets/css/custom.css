@@ -36,3 +36,19 @@ html.dark .solucao-titulo { color: #81c784; }
 
 /* Tabelas de aulas: o link da primeira coluna não quebra em duas linhas */
 .content table td:first-child a { white-space: nowrap; }
+
+/* Home: capa do livro ao lado do texto (empilha no celular) */
+.capa-livro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.capa-livro img {
+  width: 11rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 0.2);
+}
+.capa-livro > div { flex: 1 1 18rem; }
