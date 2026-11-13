@@ -2,10 +2,6 @@
 title: "Capítulo 9 — Um Pouco de Estilo"
 weight: 9
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 {{< katex />}}
 

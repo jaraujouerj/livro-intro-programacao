@@ -2,10 +2,6 @@
 title: "Capítulo 8 — Ordenando Coisas"
 weight: 8
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 
 # 📘 Exercícios — Capítulo 8 

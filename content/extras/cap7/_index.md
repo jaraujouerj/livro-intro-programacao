@@ -2,10 +2,6 @@
 title: "Capítulo 7 — Recursão"
 weight: 7
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 {{< katex />}}
 

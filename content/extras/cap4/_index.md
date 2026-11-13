@@ -2,10 +2,6 @@
 title: "Capítulo 4 — Subalgoritmos"
 weight: 4
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 
 {{< katex />}}

@@ -2,10 +2,6 @@
 title: "Capítulo 3 — Programação Estruturada"
 weight: 3
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 
 # 📘 Exercícios — Capítulo 3 

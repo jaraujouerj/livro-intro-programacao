@@ -2,10 +2,6 @@
 title: "Capítulo 1 — Introdução aos Computadores"
 weight: 1
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 
 # 📘 Exercícios — Capítulo 1 
