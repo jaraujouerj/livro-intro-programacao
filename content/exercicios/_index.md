@@ -19,3 +19,9 @@ Recomendo que só olhe a solução para conferir se a sua resposta está correta
 - [Capítulo 7 — Recursão](cap7/)
 - [Capítulo 8 — Ordenando Coisas](cap8/)
 - [Capítulo 9 — Um Pouco de Estilo (atividades de prática)](cap9/)
+
+## Licença
+
+As **soluções comentadas** deste site (texto e programas) são de autoria de João Araujo Ribeiro e estão sob a licença [Creative Commons Atribuição-CompartilhaIgual 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br). Você pode copiá-las e adaptá-las, desde que dê o crédito e mantenha a mesma licença.
+
+Os **enunciados** são do livro *Introdução à Programação e aos Algoritmos* (LTC, 2019) e não são cobertos por essa licença.
