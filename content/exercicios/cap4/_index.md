@@ -171,6 +171,45 @@ função randint().
 {{< /solucao >}}
 
 ---
+## 4.5 Passagem de Parâmetros
+### Exercício 4.14 — Evolução da pilha do Programa 4.16
+Faça um desenho com a evolução da pilha, nos moldes da versão simplificada da
+Figura 4.9, para a execução do Programa 4.16.
+
+O Programa 4.16, com as linhas numeradas e os `import` do início:
+
+{{< codefile "assets/code/prog4.16_calcula_pi.py" "linenos=true" >}}
+
+{{< solucao nivel="intermediario" >}}
+### Exercício 4.14 — Evolução da pilha do Programa 4.16
+
+**Como ler o desenho** (as mesmas convenções da Figura 4.9):
+
+* Cada quadro mostra a pilha **depois de executar a linha indicada**.
+* O topo da pilha fica no alto. Para cada função em execução, a pilha guarda as suas variáveis locais e parâmetros, a **função chamada** (em cinza e itálico, como `foo(n)` na figura do livro) e a **linha de retorno** (em cinza, o "9" da figura do livro), seguidas das variáveis de quem chamou.
+* Uma seta liga o **nome** ao **objeto** na memória. Dois nomes com setas para o mesmo objeto referem-se ao mesmo valor.
+* Como na versão simplificada, só aparecem as funções do programa. Ficam de fora os módulos `r` e `m`, as funções predefinidas (`int`, `input`, `print`, `range`) e os nomes das próprias funções.
+* Os valores (`num = 1000`, `x = 0,42`, `y = 0,87`) são ilustrativos. Em cada execução os números sorteados são outros.
+
+![Evolução da pilha do Programa 4.16](ex4.14_pilha_programa4.16.svg)
+
+**Passo a passo:**
+
+* **Linha 25.** Depois de `num = int(input(...))`, só existe a variável global `num`, ligada ao objeto 1000.
+* **Linha 17.** `calcula_pi(num)` foi chamada na linha 26. O fluxo precisa saber para onde voltar, então a pilha guarda a **linha de retorno (26)** e a função chamada, `calcula_pi(num)`. Acima delas ficam o parâmetro `n`, que aponta para o **mesmo** objeto 1000 de `num`, e as locais `conta_circulo` (0) e `i` (0, a primeira volta do `for`).
+* **Linha 6.** Na primeira volta do laço, a linha 18 chama `gera_coordenadas_aleatorias()`. A pilha ganha um novo conjunto de informações **por cima**: linha de retorno 18, a função chamada e a variável local `x` (0,42). As variáveis de `calcula_pi` continuam abaixo, intactas.
+* **Linha 7.** A variável local `y` (0,87) é criada.
+* **Linha 18.** A função retornou `(x, y)`. A parte de cima da pilha, usada por `gera_coordenadas_aleatorias()`, é **liberada**, e `calcula_pi` ganha as suas próprias `x` e `y`, ligadas aos objetos devolvidos (0,42 e 0,87).
+* **Linha 12.** A linha 19 chama `coordenadas_dentro_circulo(x, y)`. A pilha ganha um novo conjunto com a linha de retorno 19, a função chamada e os parâmetros `x` e `y`, que apontam para os **mesmos objetos** 0,42 e 0,87 das variáveis de `calcula_pi`. Nada é copiado: é o mesmo caso do `n` e do parâmetro `n` da figura do livro.
+* **Linha 20.** A função retornou `True`, pois `hypot(0,42; 0,87)` é cerca de 0,97, menor que 1. O conjunto de cima foi liberado, e `conta_circulo += 1` liga o nome a um **novo** objeto, 1. Números inteiros são imutáveis, então o 0 não foi modificado: o nome `i` ainda aponta para ele.
+* **Linha 22.** Depois de 1000 voltas, o laço terminou. As variáveis locais `pi` (3,132) e `erro` (0,0096) foram criadas.
+* **Linha 26.** `calcula_pi` retornou `(pi, erro)`. Todo o conjunto de informações dessa função foi liberado, e restam apenas as variáveis globais, com `pi` e `erro` ligadas aos objetos devolvidos. A linha 27 imprime o resultado.
+
+**Observação.** Foi desenhada só a primeira volta do laço e a última etapa. Nas voltas seguintes a pilha repete o mesmo padrão: cada chamada empilha as suas informações e as libera ao retornar. Por isso, a pilha de `calcula_pi` nunca cresce com o número de pontos sorteados.
+
+{{< /solucao >}}
+
+---
 ## 4.6 Global ou Local
 ### Exercício 4.15
 Identifique as variáveis globais e locais do Programa 4.16.

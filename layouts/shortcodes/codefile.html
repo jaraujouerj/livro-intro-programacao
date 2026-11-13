@@ -1,2 +1,2 @@
 {{ $file := .Get 0 }}
-{{ highlight (readFile $file) "python" "" }}
+{{ highlight (readFile $file) "python" (.Get 1) }}
