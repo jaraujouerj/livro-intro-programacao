@@ -26,7 +26,7 @@ layout: hextra-home
 
 ## Para estudantes
 
-Tente resolver cada exercício antes de abrir a solução, que serve apenas para conferência. Programar exige prática.
+O livro e os exercícios servem a qualquer curso de graduação que ensine computação, e também a quem quer aprender por conta própria. Tente resolver cada exercício antes de abrir a solução, que serve apenas para conferência. Programar exige prática.
 
 </div>
 
@@ -49,7 +49,7 @@ Tente resolver cada exercício antes de abrir a solução, que serve apenas para
 
 ## Para professores
 
-Os slides, os planos e os trabalhos são uma base para suas aulas e avaliações. Sinta-se à vontade para usá-los e adaptá-los.
+Os slides, o plano e os trabalhos vêm da disciplina Algoritmos Computacionais I, dada a cursos de engenharia, mas servem de base para qualquer curso introdutório de programação. Sinta-se à vontade para usá-los e adaptá-los.
 
 </div>
 
@@ -62,7 +62,7 @@ Os slides, os planos e os trabalhos são uma base para suas aulas e avaliações
   >}}
   {{< hextra/feature-card
     title="Trabalhos por engenharia"
-    subtitle="Trabalho final voltado para a área de cada curso, com enunciado, dados e guia do professor."
+    subtitle="Projeto final voltado para a área de cada curso de engenharia, com enunciado, dados e guia do professor. Serve de modelo para outras áreas."
     link="trabalhos"
     icon="beaker"
   >}}
@@ -78,7 +78,7 @@ Os slides, os planos e os trabalhos são uma base para suas aulas e avaliações
 
 <div>
 
-O conteúdo teórico completo está no livro *Introdução à Programação e aos Algoritmos* (LTC, 2019), de João Araujo Ribeiro. Este site é um complemento prático para estudantes e docentes: ele não substitui o livro.
+O conteúdo teórico completo está no livro *Introdução à Programação e aos Algoritmos* (LTC, 2019), de João Araujo Ribeiro. Ele é voltado para qualquer curso de graduação que ensine computação, e também para curiosos pelo tema, e não apenas para a engenharia. Este site é um complemento prático para estudantes e docentes: ele não substitui o livro.
 
 [Comprar o livro](https://amzn.to/4aY4eBW)
 

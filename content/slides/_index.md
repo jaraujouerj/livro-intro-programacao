@@ -7,7 +7,7 @@ cascade:
 ---
 Aqui estão os **slides das aulas** de *Algoritmos Computacionais I* e o **plano de trabalho** da disciplina, seguindo o livro *Introdução à Programação e aos Algoritmos* (J. A. Ribeiro, LTC, 2019). Cada aula tem uma apresentação em PDF, que abre em uma nova aba ao clicar no link.
 
-Os slides citam os exercícios deste site (com solução comentada) e usam os exemplos de código do livro. A disciplina é pensada para **alunos de engenharia em geral**: os capítulos 1 a 6 e 9 formam o curso básico, e o último bloco acrescenta análise de dados com NumPy, Pandas e Matplotlib e um projeto final.
+Os slides citam os exercícios deste site (com solução comentada) e usam os exemplos de código do livro. A disciplina é dada a **alunos de engenharia em geral** (o material pode ser adaptado a qualquer curso introdutório de programação): os capítulos 1 a 6 e 9 formam o curso básico, e o último bloco acrescenta análise de dados com NumPy, Pandas e Matplotlib e um projeto final.
 
 > 💻 **Código-fonte:** o LaTeX (Beamer) de todos os slides, os programas em Python citados em cada aula e os notebooks de Matplotlib e Pandas estão no [repositório do GitHub](https://github.com/jaraujouerj/algoritmos-computacionais-aulas). Você também pode [baixar tudo em um arquivo ZIP](https://github.com/jaraujouerj/algoritmos-computacionais-aulas/archive/refs/heads/main.zip). O material está sob licença livre (CC BY-SA para os slides, MIT para o código), então pode ser copiado e adaptado.
 
