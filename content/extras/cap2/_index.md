@@ -2,10 +2,6 @@
 title: "Capítulo 2 — Bases da Programação"
 weight: 2
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 
 # 📘 Exercícios — Capítulo 2 

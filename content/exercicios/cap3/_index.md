@@ -17,7 +17,7 @@ quadrado antes de calcular a área. (Use o conversor int)
 
 
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício 3.1 — Área de um quadrado (conversor int)
 
 **Ideia:**  
@@ -32,7 +32,7 @@ A área de um quadrado é dada pelo lado multiplicado por ele mesmo.
 ### Exercício 3.2
 Faça o mesmo programa do exercício anterior usando o conversor float.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício 3.2 — Área de um quadrado (conversor float)
 
 {{< codefile "assets/code/ex3.2_area_quadrado_float.py" >}}
@@ -44,7 +44,7 @@ Faça o mesmo programa do exercício anterior usando o conversor float.
 Modifique as indentações dos programas desta seção e veja qual erro o
 interpretador Python indica.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 Por exemplo, ao escrever
 
 ```python
@@ -71,7 +71,7 @@ ou em português: Erro de indentação. indentação incorreta.
 ### Exercício 3.4
 Escreva um programa que diga se um número inteiro digitado é par ou ímpar.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Par ou ímpar
 
 {{< codefile "assets/code/ex3.4_par_ou_impar.py" >}}
@@ -83,7 +83,7 @@ Escreva um programa que diga se um número inteiro digitado é par ou ímpar.
 Escreva um programa que receba dois números inteiros pelo teclado e informe se
 o segundo é um múltiplo do primeiro.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Múltiplo
 
 {{< codefile "assets/code/ex3.5_multiplo.py" >}}
@@ -96,7 +96,7 @@ o segundo é um múltiplo do primeiro.
 Escreva um programa em Python que teste se um número é divisível por 3, 5 ou 7.
 Seu programa deve dizer por qual desses valores o número é divisível.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Divisível por 3, 5 ou 7 
 {{< codefile "assets/code/ex3.6_divisivel_357.py" >}}
 {{< /solucao >}}
@@ -110,7 +110,7 @@ aumento de 20 %; entre 1000 e 2000 (inclusive), aumento de 18 %; entre 2000 e
 4000 (inclusive) aumento de 15 % e acima de 4000 aumento de 10 %. Escreva um
 programa que, dado um valor de salário, calcule o novo valor após o aumento.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Aumento de salário
 {{< codefile "assets/code/ex3.7_aumento_salario.py" >}}
 
@@ -127,7 +127,7 @@ quando tem 2 lados iguais e escaleno quando todos os lados têm tamanhos
 diferentes, escreva um programa que receba os valores dos três lados de um
 triângulo e imprima se ele é equilátero, isósceles ou escaleno.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Triângulo
 {{< codefile "assets/code/ex3.8_triangulo.py" >}}
 
@@ -148,7 +148,7 @@ seguintes faixas etárias:
 Escreva um programa que solicite uma idade e imprima a classificação
 correspondente.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Classificação de idade
 ```python
 # lê a idade
@@ -205,7 +205,7 @@ Escreva um programa que solicite o peso (em kg) e a idade (em anos) de um cão e
 Considere que os valores informados são positivos.
 
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Idade humana de cães
 {{< codefile "assets/code/ex3.10_idade_humana_caes.py" >}}
 
@@ -218,7 +218,7 @@ Escreva um programa que receba um número inteiro n e calcule a soma dos
 quadrados dos números até n-1. Exemplo: se n for igual a 3, seu programa deve
 dar o resultado da soma dos números 1<sup>2</sup> + 2<sup>2</sup>.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Soma dos quadrados
 {{< codefile "assets/code/ex3.11_soma_quadrados.py" >}}
 {{< /solucao >}}
@@ -228,7 +228,7 @@ dar o resultado da soma dos números 1<sup>2</sup> + 2<sup>2</sup>.
 Escreva um programa que calcule a média dos números digitados pelo usuário. O
 programa deve calcular a média quando o usuário digitar o número zero.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Média dos números
 {{< codefile "assets/code/ex3.12_media_numeros.py" >}}
 
@@ -239,7 +239,7 @@ programa deve calcular a média quando o usuário digitar o número zero.
 ### Exercício 3.13
 Reescreva o Exercício 3.11 usando o comando for.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Soma dos quadrados (for)
 {{< codefile "assets/code/ex3.13_soma_quadrados_for.py" >}}
 {{< /solucao >}}
@@ -249,7 +249,7 @@ Reescreva o Exercício 3.11 usando o comando for.
 Escreva um programa que calcule a temperatura equivalente em Fahrenheit para
 os graus Celsius entre 0 e 100 com intervalos de 10 graus.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Temperatura em Fahrenheit
 {{< codefile "assets/code/ex3.14_temp_fahrenheit.py" >}}
 
@@ -270,7 +270,7 @@ Escreva um programa que gere o seguinte padrão usando laços encaixados:
 *
 </pre>
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Padrão de asteriscos
 {{< codefile "assets/code/ex3.15_padrao_asteriscos.py" >}}
 

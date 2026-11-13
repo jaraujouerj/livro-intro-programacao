@@ -2,10 +2,6 @@
 title: "Capítulo 6 — Cadeias de Caracteres e Arquivos"
 weight: 6
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 
 # 📘 Exercícios — Capítulo 6 

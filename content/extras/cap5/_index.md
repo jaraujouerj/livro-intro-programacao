@@ -2,10 +2,6 @@
 title: "Capítulo 5 — Organizando a Informação"
 weight: 5
 bookCollapseSection: true
-
-# Metadados (para uso futuro)
-nivel: "iniciante"
-topicos: ["entrada/saída", "variáveis"]
 ---
 {{< katex />}}
 

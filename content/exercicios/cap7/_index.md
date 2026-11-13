@@ -14,7 +14,7 @@ bookCollapseSection: true
 Escreva uma função recursiva que imprima uma string na ordem inversa.
 Ex.: "celacanto provoca maremoto" será impressa como "otomeram acovorp otnacalec".
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — String na ordem inversa
 {{< codefile "assets/code/ex7.1_string_inversa_recursiva.py" >}}
 
@@ -25,7 +25,7 @@ Ex.: "celacanto provoca maremoto" será impressa como "otomeram acovorp otnacale
 Escreva uma função recursiva que diga se uma palavra é um palíndromo.
 Ex.: arara, ovo, radar, osso.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Palíndromo recursivo
 {{< codefile "assets/code/ex7.2_palindromo_recursivo.py" >}}
 
@@ -37,7 +37,7 @@ Escreva uma função recursiva que diga se uma frase é um palíndromo. Não
 esqueça de ignorar ou apagar os espaços antes de comparar as letras. Ex.: "A mala
 nada na lama", "a base do teto desaba".
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Palíndromo em frases (recursivo)
 {{< codefile "assets/code/ex7.3_palindromo_frase_recursivo.py" >}}
 
@@ -51,7 +51,7 @@ definido como:
 
 fat(n) = 1, se n é 0 ou n × fat(n−1), se n é maior que 0
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Fatorial recursivo
 {{< codefile "assets/code/ex7.4_fatorial_recursivo.py" >}}
 
@@ -75,7 +75,7 @@ for i in range(100):
     print('fib' + str(i) + '):'+ str(fib(i)))
 ```
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Fibonacci com lista
 {{< codefile "assets/code/ex7.5_fibonacci_lista.py" >}}
 
@@ -85,7 +85,7 @@ for i in range(100):
 ### Exercício 7.6 — Soma recursiva
 Escreva uma função recursiva que some os n primeiros números.
 
-{{< solucao nivel="iniciante" >}}
+{{< solucao >}}
 ### Exercício — Soma recursiva
 {{< codefile "assets/code/ex7.6_soma_recursiva.py" >}}
 
