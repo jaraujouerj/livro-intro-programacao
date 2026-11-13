@@ -21,3 +21,4 @@ Recomendo que só olhe a solução para conferir se suas resposta está correta.
 - [Capítulo 6 - Cadeias de Caracteres e Arquivos](cap6/)
 - [Capítulo 7 - Recursão](cap7/)
 - [Capítulo 8 - Ordenando Coisas](cap8/)
+- [Capítulo 9 - Um pouco de estilo](cap9/)
