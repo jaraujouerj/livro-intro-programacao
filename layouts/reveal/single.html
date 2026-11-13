@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/atom-one-dark.min.css">
+<link rel="stylesheet" href="{{ " reveal/custom.css" | relURL }}">
+
+<div class="reveal">
+    <div class="slides">
+
+        <!-- CAPA -->
+        <section>
+            <h2>Introdução à Programação e aos Algoritmos</h2>
+            <h3>{{ .Title }}</h3>
+            <p>João Araujo</p>
+        </section>
+
+        <!-- CONTEÚDO -->
+        {{ .Content }}
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+
+<script>
+    Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        plugins: [RevealHighlight]
+    });
+</script>
+
+{{ end }}
