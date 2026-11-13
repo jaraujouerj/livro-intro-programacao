@@ -1,6 +1,6 @@
 +++
 title = 'Errata'
-date = 2026-04-09T09:36:51-03:00
+date = 2026-11-13T09:36:51-03:00
 draft = false
 +++
 
@@ -13,7 +13,7 @@ Se encontrar um erro, entre em contato com o autor.
 
 ---
 
-# Versão 1.2 (2026-04-09)
+# Versão 1.3
 
 ## Capítulo 2 — Bases da Programação
 
