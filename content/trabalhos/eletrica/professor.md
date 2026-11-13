@@ -53,7 +53,9 @@ Responder, como engenheiro(a) de eficiência energética: **a instalação opera
 
 **Opcionais:** desequilíbrio entre fases, dimensionamento de banco de capacitores e comparação de tarifas.
 
-> ℹ️ **Conferir as referências.** O limite de *FP* (0,92) e a faixa de tensão adequada (117 V a 133 V para 127 V) seguem a regulamentação da ANEEL (PRODIST, Módulo 8) como foram usados aqui. Confira a versão vigente antes de aplicar o trabalho. As tarifas do item opcional são **fictícias**.
+{{< callout type="warning" >}}
+**Conferir as referências.** O limite de *FP* (0,92) e a faixa de tensão adequada (117 V a 133 V para 127 V) seguem a regulamentação da ANEEL (PRODIST, Módulo 8) como foram usados aqui. Confira a versão vigente antes de aplicar o trabalho. As tarifas do item opcional são **fictícias**.
+{{< /callout >}}
 
 ## 6. Visualizações mínimas
 

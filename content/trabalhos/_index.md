@@ -24,4 +24,6 @@ Cada trabalho tem duas páginas:
 
 Civil, Mecânica, Ambiental, Cartográfica e Computação ainda não têm trabalho publicado. As sugestões de tema por engenharia estão nos [slides da Aula 26](../slides/aula26_lancamento_projeto.pdf).
 
-> 💡 Este site é público: o material "para o professor" não fica protegido. Gabaritos e soluções de referência por isso **não** são publicados aqui.
+{{< callout type="info" >}}
+Este site é público: o material "para o professor" não fica protegido. Gabaritos e soluções de referência por isso **não** são publicados aqui.
+{{< /callout >}}

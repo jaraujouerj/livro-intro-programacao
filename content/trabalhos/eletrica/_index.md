@@ -68,7 +68,9 @@ As fontes se relacionam por `data` e `circuito`. Parte do trabalho exige **combi
 
 Carregue com `pd.read_csv(...)`. A coluna `data` vem como texto: converta para `datetime` antes de qualquer análise temporal.
 
-> **Atenção aos dados.** Em dois momentos do mês as leituras saíram "estranhas". Um deles é uma **falta de energia** real; o outro é uma **falha do medidor**. Descubra qual é qual e trate cada um de forma diferente e justificada. Não aplique `dropna()` nem `fillna(0)` sem entender o que está fazendo.
+{{< callout type="warning" >}}
+**Atenção aos dados.** Em dois momentos do mês as leituras saíram "estranhas". Um deles é uma **falta de energia** real; o outro é uma **falha do medidor**. Descubra qual é qual e trate cada um de forma diferente e justificada. Não aplique `dropna()` nem `fillna(0)` sem entender o que está fazendo.
+{{< /callout >}}
 
 ## 3. O que vocês devem entregar
 

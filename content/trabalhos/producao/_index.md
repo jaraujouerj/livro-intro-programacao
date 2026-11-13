@@ -87,9 +87,11 @@ producao["data"] = pd.to_datetime(producao["data"])
 5. Calcule uma aproximação simplificada do **OEE** por máquina.
 6. Algum operador se destaca, positiva ou negativamente, em alguma máquina?
 
-> **OEE** (Overall Equipment Effectiveness) mede a eficiência real de uma máquina:
-> `OEE = Disponibilidade × Desempenho × Qualidade`.
-> *Disponibilidade* é o tempo em que a máquina funcionou em relação ao planejado (descontadas as paradas); *Desempenho* compara a velocidade real com a ideal; *Qualidade* é a fração de peças sem defeito (sem refugo nem retrabalho). Valores acima de 85% são considerados de classe mundial.
+{{< callout type="info" >}}
+**OEE** (Overall Equipment Effectiveness) mede a eficiência real de uma máquina:
+`OEE = Disponibilidade × Desempenho × Qualidade`.
+*Disponibilidade* é o tempo em que a máquina funcionou em relação ao planejado (descontadas as paradas); *Desempenho* compara a velocidade real com a ideal; *Qualidade* é a fração de peças sem defeito (sem refugo nem retrabalho). Valores acima de 85% são considerados de classe mundial.
+{{< /callout >}}
 
 ## 5. Gráficos obrigatórios
 

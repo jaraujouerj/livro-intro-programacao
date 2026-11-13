@@ -3,7 +3,9 @@ title: "Capítulo 9 — Um Pouco de Estilo"
 description: "Atividades de prática do capítulo 9 do livro (Um Pouco de Estilo): planejamento, legibilidade, simplicidade e testes."
 weight: 9
 ---
-> ℹ️ **Sobre este capítulo.** O Capítulo 9 do livro trata de planejamento, legibilidade, simplicidade e testes. É um capítulo de **aconselhamento**, e por isso **não traz exercícios numerados**. As atividades abaixo (**A9.1 a A9.6**) são um complemento deste site: aprendem-se boas práticas **praticando-as**, e não apenas lendo sobre elas. Para perguntas de reflexão e discussão, veja também os [exercícios extras do Capítulo 9](../../extras/cap9/).
+{{< callout type="info" >}}
+**Sobre este capítulo.** O Capítulo 9 do livro trata de planejamento, legibilidade, simplicidade e testes. É um capítulo de **aconselhamento**, e por isso **não traz exercícios numerados**. As atividades abaixo (**A9.1 a A9.6**) são um complemento deste site: aprendem-se boas práticas **praticando-as**, e não apenas lendo sobre elas. Para perguntas de reflexão e discussão, veja também os [exercícios extras do Capítulo 9](../../extras/cap9/).
+{{< /callout >}}
 
 Estas atividades não têm uma única resposta correta. Cada uma termina com um **critério de autoavaliação**: se você conseguir marcar todos os itens, o trabalho está bom.
 
