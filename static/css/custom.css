@@ -45,6 +45,7 @@
     background: #263238;
     color: #eceff1;
     padding: 1em;
+    overflow-x: auto; /* tabelas largas rolam em vez de serem cortadas */
 }
 
 .solucao-conteudo pre {
