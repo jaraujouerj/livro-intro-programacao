@@ -1,14 +1,10 @@
 ---
 title: "Exercícios"
 description: "Enunciados e soluções comentadas dos exercícios de cada capítulo do livro."
-bookCollapseSection: true
+type: docs
+cascade:
+  type: docs
 ---
-# Exercícios do livro
-
-[← Voltar](../)
-
----
-
 Aqui você encontra os enunciados dos exercícios de cada capítulo do livro. Você pode ver a solução ao clicar no botão logo após cada exercício.
 Recomendo que só olhe a solução para conferir se a sua resposta está correta. Programar exige prática.
 

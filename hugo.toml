@@ -1,14 +1,90 @@
 baseURL = 'https://araujo.eng.uerj.br/livro/'
-languageCode = 'pt-BR'
-defaultContentLanguage = 'pt-br'
 title = 'Introdução à Programação e aos Algoritmos'
-theme = "hugo-book"
+theme = 'hextra'
+defaultContentLanguage = 'pt'
+enableRobotsTXT = true
+enableGitInfo = true
+
+[languages]
+  [languages.pt]
+    locale = 'pt-BR'
+    languageName = 'Português'
+    weight = 1
 
 [markup]
+  [markup.highlight]
+    noClasses = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)']]
+
+[[menu.main]]
+  name = 'Exercícios'
+  pageRef = '/exercicios'
+  weight = 1
+
+[[menu.main]]
+  name = 'Extras'
+  pageRef = '/extras'
+  weight = 2
+
+[[menu.main]]
+  name = 'Slides'
+  pageRef = '/slides'
+  weight = 3
+
+[[menu.main]]
+  name = 'Trabalhos'
+  pageRef = '/trabalhos'
+  weight = 4
+
+[[menu.main]]
+  name = 'Errata'
+  pageRef = '/errata'
+  weight = 5
+
+[[menu.main]]
+  name = 'Busca'
+  weight = 6
+  [menu.main.params]
+    type = 'search'
+
+[[menu.main]]
+  name = 'GitHub'
+  weight = 7
+  url = 'https://github.com/jaraujouerj/algoritmos-computacionais-aulas'
+  [menu.main.params]
+    icon = 'github'
 
 [params]
   description = 'Exercícios resolvidos, slides e trabalhos para o livro Introdução à Programação e aos Algoritmos.'
   images = ['images/livroalgoritmos.png']
+  displayUpdatedDate = true
+  dateFormat = '02/01/2006'
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    width = 'wide'
+
+  [params.page]
+    width = 'wide'
+
+  [params.footer]
+    displayPoweredBy = false
+
+  [params.theme]
+    default = 'system'
+    displayToggle = true
+
+  [params.search]
+    enable = true
+    type = 'flexsearch'
+    [params.search.flexsearch]
+      index = 'content'
+      tokenize = 'forward'

@@ -2,14 +2,9 @@
 title: "Capítulo 1 — Introdução aos Computadores"
 description: "Exercícios adicionais do capítulo 1 (Introdução aos Computadores), para praticar, sem solução publicada."
 weight: 1
-bookCollapseSection: true
 ---
-
-# Capítulo 1 — Introdução aos Computadores
-
 *Exercícios adicionais, sem solução publicada.*
 
-[← Voltar](../)
 
 ---
 

@@ -1,9 +1,6 @@
 <details class="solucao-box">
-    <summary class="solucao-titulo">
-        {{ .Get "titulo" | default "Ver solução" }}
-    </summary>
-
-    <div class="solucao-conteudo">
-        {{ .Inner | .Page.RenderString }}
-    </div>
+  <summary class="solucao-titulo">{{ .Get "titulo" | default "Ver solução" }}</summary>
+  <div class="solucao-conteudo">
+    {{ .InnerDeindent | $.Page.RenderString (dict "display" "block") }}
+  </div>
 </details>

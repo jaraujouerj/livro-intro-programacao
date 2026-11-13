@@ -2,15 +2,9 @@
 title: "Capítulo 5 — Organizando a Informação"
 description: "Exercícios adicionais do capítulo 5 (Organizando a Informação), para praticar, sem solução publicada."
 weight: 5
-bookCollapseSection: true
 ---
-{{< katex />}}
-
-# Capítulo 5 — Organizando a Informação
-
 *Exercícios adicionais, sem solução publicada.*
 
-[← Voltar](../)
 
 ---
 ### Exercícios propostos sobre Listas e Processamento
@@ -27,7 +21,7 @@ bookCollapseSection: true
 
 ### Exercícios sobre Listas por Compreensão e Operações
 
-**6.** Utilize **listas por compreensão** para gerar uma lista contendo as potências de 3 (de \\(3^0\\) até \\(3^{10}\\)).
+**6.** Utilize **listas por compreensão** para gerar uma lista contendo as potências de 3 (de \(3^0\) até \(3^{10}\)).
 
 **7.** Crie uma lista de nomes e use a compreensão de listas com um **filtro (`if`)** para gerar uma nova lista contendo apenas os nomes que começam com a letra "A".
 

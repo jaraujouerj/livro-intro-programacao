@@ -2,12 +2,7 @@
 title: "Capítulo 5 — Organizando a Informação"
 description: "Exercícios do capítulo 5 do livro (Organizando a Informação), com soluções comentadas."
 weight: 5
-bookCollapseSection: true
 ---
-# Capítulo 5 — Organizando a Informação
-
-[← Voltar](../)
-
 ## 5.3 Processando uma Lista
 ### Exercício 5.1
 Escreva um programa que receba uma lista de temperaturas em Celsius e escreva

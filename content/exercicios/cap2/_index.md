@@ -2,13 +2,7 @@
 title: "Capítulo 2 — Bases da Programação"
 description: "Exercícios do capítulo 2 do livro (Bases da Programação), com soluções comentadas."
 weight: 2
-bookCollapseSection: true
 ---
-
-# Capítulo 2 — Bases da Programação
-
-[← Voltar](../)
-
 ## 2.2 Algoritmos
 ### Exercício 2.1
 Escreva um algoritmo para fritar um ovo. Se não souber, escreva mesmo assim e depois pergunte a alguém que saiba. Houve

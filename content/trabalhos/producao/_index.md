@@ -2,12 +2,10 @@
 title: "Engenharia de Produção"
 description: "Trabalho final de Engenharia de Produção: análise de dados de produção com pandas e matplotlib, com enunciado em PDF e dados para download."
 weight: 1
-bookCollapseSection: false
 ---
-# Trabalho Final — Engenharia de Produção
 **Análise de Dados de Produção com Python**
 
-[← Trabalhos](../) · [Guia do professor](professor/)
+[Guia do professor](professor/)
 
 ---
 

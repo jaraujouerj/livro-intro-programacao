@@ -2,12 +2,6 @@
 title: "Capítulo 4 — Subalgoritmos"
 description: "Exercícios do capítulo 4 do livro (Subalgoritmos), com soluções comentadas."
 weight: 4
-bookCollapseSection: true
----
-# Capítulo 4 — Subalgoritmos
-
-[← Voltar](../)
-
 ---
 ## 4.2 Módulos em Python
 ### Exercício 4.1 - Tabela com tangente

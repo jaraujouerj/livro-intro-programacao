@@ -1,14 +1,10 @@
 ---
 title: "Slides e Plano de Trabalho"
 description: "Slides de todas as aulas de Algoritmos Computacionais I e plano de trabalho da disciplina, com download em PDF e código-fonte no GitHub."
-bookCollapseSection: false
+type: docs
+cascade:
+  type: docs
 ---
-# Slides e plano de trabalho
-
-[← Voltar](../)
-
----
-
 Aqui estão os **slides das aulas** de *Algoritmos Computacionais I* e o **plano de trabalho** da disciplina, seguindo o livro *Introdução à Programação e aos Algoritmos* (J. A. Ribeiro, LTC, 2019). Cada aula tem uma apresentação em PDF, que abre em uma nova aba ao clicar no link.
 
 Os slides citam os exercícios deste site (com solução comentada) e usam os exemplos de código do livro. A disciplina é pensada para **alunos de engenharia em geral**: os capítulos 1 a 6 e 9 formam o curso básico, e o último bloco acrescenta análise de dados com NumPy, Pandas e Matplotlib e um projeto final.

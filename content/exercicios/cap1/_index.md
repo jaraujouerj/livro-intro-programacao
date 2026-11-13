@@ -2,13 +2,6 @@
 title: "Capítulo 1 — Introdução aos Computadores"
 description: "Exercícios do capítulo 1 do livro (Introdução aos Computadores), com soluções comentadas."
 weight: 1
-bookCollapseSection: true
----
-
-# Capítulo 1 — Introdução aos Computadores
-
-[← Voltar](../)
-
 ---
 ## 1.1 Sistemas de Numeração
 ### Exercício 1.1
