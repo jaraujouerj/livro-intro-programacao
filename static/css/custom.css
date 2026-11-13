@@ -53,6 +53,14 @@
     border-radius: 4px;
 }
 
+/* Código em linha dentro da solução: o tema usa fundo claro e a caixa
+   herda texto claro, o que deixava `foo(n)` quase ilegível. */
+.markdown .solucao-conteudo :not(pre) > code {
+    background: #37474f;
+    color: #ffe0b2;
+    border: 1px solid #546e7a;
+}
+
 .solucao-conteudo table {
     border-collapse: collapse;
     width: 100%;

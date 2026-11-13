@@ -191,7 +191,9 @@ O Programa 4.16, com as linhas numeradas e os `import` do início:
 * Como na versão simplificada, só aparecem as funções do programa. Ficam de fora os módulos `r` e `m`, as funções predefinidas (`int`, `input`, `print`, `range`) e os nomes das próprias funções.
 * Os valores (`num = 1000`, `x = 0,42`, `y = 0,87`) são ilustrativos. Em cada execução os números sorteados são outros.
 
-![Evolução da pilha do Programa 4.16](ex4.14_pilha_programa4.16.svg)
+[![Evolução da pilha do Programa 4.16](ex4.14_pilha_programa4.16.svg)](ex4.14_pilha_programa4.16.svg)
+
+*Clique na figura para abrir em tamanho real.*
 
 **Passo a passo:**
 
