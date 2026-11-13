@@ -1,5 +1,6 @@
 +++
 title = 'Material de Apoio'
+description = 'Material complementar ao livro Introdução à Programação e aos Algoritmos: exercícios resolvidos, exercícios adicionais, slides e trabalhos para as aulas.'
 date = 2026-04-04T16:00:38-03:00
 draft = false
 +++

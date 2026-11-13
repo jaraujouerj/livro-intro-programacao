@@ -1,12 +1,11 @@
 ---
 title: "Capítulo 1 — Introdução aos Computadores"
+description: "Exercícios do capítulo 1 do livro (Introdução aos Computadores), com soluções comentadas."
 weight: 1
 bookCollapseSection: true
 ---
 
-# 📘 Exercícios — Capítulo 1 
-
-# Introdução aos Computadores
+# Capítulo 1 — Introdução aos Computadores
 
 [← Voltar](../)
 

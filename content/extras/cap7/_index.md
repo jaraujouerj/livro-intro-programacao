@@ -1,12 +1,14 @@
 ---
 title: "Capítulo 7 — Recursão"
+description: "Exercícios adicionais do capítulo 7 (Recursão), para praticar, sem solução publicada."
 weight: 7
 bookCollapseSection: true
 ---
 {{< katex />}}
 
-# 📘 Exercícios — Capítulo 7 
-# Recursão
+# Capítulo 7 — Recursão
+
+*Exercícios adicionais, sem solução publicada.*
 
 [← Voltar](../)
 

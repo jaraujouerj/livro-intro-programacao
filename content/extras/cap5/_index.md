@@ -1,12 +1,14 @@
 ---
 title: "Capítulo 5 — Organizando a Informação"
+description: "Exercícios adicionais do capítulo 5 (Organizando a Informação), para praticar, sem solução publicada."
 weight: 5
 bookCollapseSection: true
 ---
 {{< katex />}}
 
-# 📘 Exercícios — Capítulo 5 
-# Organizando a Informação
+# Capítulo 5 — Organizando a Informação
+
+*Exercícios adicionais, sem solução publicada.*
 
 [← Voltar](../)
 

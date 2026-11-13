@@ -1,10 +1,10 @@
 ---
 title: "Capítulo 9 — Um Pouco de Estilo"
+description: "Atividades de prática do capítulo 9 do livro (Um Pouco de Estilo): planejamento, legibilidade, simplicidade e testes."
 weight: 9
 bookCollapseSection: true
 ---
-# 📘 Atividades — Capítulo 9
-# Um Pouco de Estilo
+# Capítulo 9 — Um Pouco de Estilo
 
 [← Voltar](../)
 
