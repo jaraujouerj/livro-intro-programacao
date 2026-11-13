@@ -15,7 +15,7 @@ O site é gerado com o [Hugo](https://gohugo.io/) e o tema [Hextra](https://gith
 ## Primeiros passos
 
 ```bash
-git clone --recurse-submodules <endereço do repositório>
+git clone --recurse-submodules https://github.com/jaraujouerj/livro-intro-programacao.git
 cd livro-intro-programacao
 hugo server
 ```
@@ -135,11 +135,30 @@ rode `hugo server` e confira a home, um capítulo, a busca e o modo escuro.
 
 ## Publicação
 
-O conteúdo de `public/` é o site completo e deve ser servido no caminho `/livro/` (a `baseURL`
-está em `hugo.toml`). Se o endereço mudar, altere a `baseURL`. Antes de publicar:
+A publicação é manual: gera-se o site e transfere-se o resultado para o servidor por SFTP (por
+exemplo, com o FileZilla).
 
-1. `hugo --gc --minify` deve terminar **sem avisos nem erros**;
-2. abra a home, um capítulo (com uma solução aberta), a busca e a página de slides.
+1. Atualize o repositório e os submódulos (`git pull` e `git submodule update --init`).
+2. Gere o site **numa pasta limpa**, para não levar arquivos de builds antigos:
+
+   ```bash
+   rm -rf public
+   hugo --gc --minify
+   ```
+
+   O comando deve terminar **sem avisos nem erros**.
+3. Transfira **o conteúdo** de `public/` (não a pasta `public` em si) para a pasta do servidor
+   servida em `https://araujo.eng.uerj.br/livro/`.
+4. Remova do servidor os arquivos que não existem mais em `public/`. Vários arquivos mudam de nome
+   a cada alteração, porque levam um código no nome: o CSS do tema (em `css/compiled/`), os
+   scripts de `js/` e o índice de busca (`pt-br.search...json` e `.js`, na raiz). Páginas renomeadas
+   ou apagadas também ficam órfãs se ninguém as remover. Uma forma simples é limpar a pasta `livro/`
+   do servidor antes de enviar, **desde que ela contenha só este site** (confira antes de apagar).
+5. Confira no endereço real, com recarga sem cache (Ctrl+Shift+R): a home, um capítulo com uma
+   solução aberta, a busca e a página de slides (um PDF deve abrir).
+
+A `baseURL` está em `hugo.toml` e deve continuar terminando em `/livro/`. Se o endereço mudar,
+altere-a antes de gerar o site.
 
 ## Licenças
 
