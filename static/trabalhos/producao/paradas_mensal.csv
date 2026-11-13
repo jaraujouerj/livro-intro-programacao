@@ -1,0 +1,45 @@
+id_parada,data,maquina,turno,motivo,duracao_min
+1,2026-08-03,M2,Manha,Falta de material,46
+2,2026-08-04,M1,Tarde,Ajuste de setup,88
+3,2026-08-04,M3,Noite,Falta de material,14
+4,2026-08-04,M1,Tarde,Manutencao corretiva,79
+5,2026-08-05,M1,Noite,Falta de operador,41
+6,2026-08-05,M2,Noite,Falta de operador,21
+7,2026-08-06,M2,Noite,Falta de material,30
+8,2026-08-06,M1,Noite,Falta de operador,76
+9,2026-08-06,M4,Tarde,Manutencao corretiva,38
+10,2026-08-08,M4,Manha,Falta de material,90
+11,2026-08-08,M1,Noite,Falta de material,18
+12,2026-08-10,M3,Tarde,Troca de ferramenta,60
+13,2026-08-11,M3,Noite,Manutencao corretiva,27
+14,2026-08-11,M4,Tarde,Falta de material,52
+15,2026-08-12,M4,Tarde,Falta de operador,48
+16,2026-08-12,M4,Manha,Troca de ferramenta,35
+17,2026-08-13,M1,Tarde,Manutencao preventiva,27
+18,2026-08-14,M1,Tarde,Troca de ferramenta,85
+19,2026-08-15,M3,Noite,Falta de operador,22
+20,2026-08-15,M1,Tarde,Falta de material,11
+21,2026-08-18,M2,Tarde,Falta de material,78
+22,2026-08-18,M1,Noite,Falta de operador,78
+23,2026-08-18,M1,Noite,Manutencao preventiva,60
+24,2026-08-19,M4,Tarde,Falta de operador,36
+25,2026-08-19,M3,Noite,Falta de material,23
+26,2026-08-19,M1,Tarde,Troca de ferramenta,21
+27,2026-08-20,M4,Manha,Manutencao corretiva,54
+28,2026-08-20,M2,Manha,Falta de material,53
+29,2026-08-21,M2,Tarde,Manutencao corretiva,86
+30,2026-08-22,M4,Noite,Manutencao preventiva,52
+31,2026-08-24,M1,Tarde,Ajuste de setup,78
+32,2026-08-24,M2,Tarde,Ajuste de setup,89
+33,2026-08-28,M3,Noite,Troca de ferramenta,54
+34,2026-08-28,M2,Tarde,Ajuste de setup,36
+35,2026-08-28,M1,Noite,Manutencao corretiva,59
+36,2026-08-29,M4,Noite,Falta de material,61
+37,2026-08-29,M4,Manha,Manutencao corretiva,17
+38,2026-08-29,M1,Tarde,Ajuste de setup,9
+39,2026-08-31,M2,Noite,Troca de ferramenta,88
+40,2026-08-31,M2,Tarde,Falta de operador,41
+41,2026-08-31,M4,Tarde,Manutencao preventiva,41
+42,2026-09-01,M3,Manha,Falta de operador,21
+43,2026-09-01,M2,Noite,Falta de material,21
+44,2026-09-01,M3,Manha,Falta de material,63

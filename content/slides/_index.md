@@ -69,6 +69,8 @@ A disciplina tem **35 aulas** em 4 blocos. As aulas 15 e 25 são as provas e nã
 
 ### Bloco 4 — Análise de dados e projeto final (aulas 26 a 35)
 
+Cada engenharia tem um trabalho voltado para a sua área: veja os [trabalhos por engenharia](../trabalhos/).
+
 O projeto integra funções, estruturas de dados, arquivos, tratamento de erros e, quando aplicável, NumPy, Pandas e Matplotlib. Os grupos têm 2 ou 3 alunos e o projeto resolve um problema real da área da engenharia do curso. Antes da especificação, três aulas apresentam as ferramentas de análise de dados.
 
 |  Aula   | Conteúdo                                                                               | Referência             | Slides                                      |
